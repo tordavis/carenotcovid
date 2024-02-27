@@ -126,7 +126,7 @@ def main():
         final_df = final_df.drop_duplicates()
         # get length of OFF dataset for allergen
         final_df_len = len(final_df)
-        st.write("We found", final_df_len, "products containing", user_mask_selection,".")
+        st.write("We found", final_df_len, "facilities with", user_mask_selection,".")
         # present a dataframe of brand, product, ingredient, and allergen
         final_df.set_index(final_df.columns[0])
         st.write("### Ingredients with Mask Preference Present", final_df.sort_index())
