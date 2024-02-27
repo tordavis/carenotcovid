@@ -129,7 +129,7 @@ def main():
         st.write("We found", final_df_len, "facilities with", user_mask_selection,".")
         # present a dataframe of brand, product, ingredient, and allergen
         final_df.set_index(final_df.columns[0])
-        st.write("### Ingredients with Mask Preference Present", final_df.sort_index())
+        st.write("### Facilities with Mask Preference Present", final_df.sort_index())
 
 if __name__ == "__main__":
     main()
