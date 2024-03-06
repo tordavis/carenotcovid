@@ -16,7 +16,7 @@ import random
 ##### Page Set Up #####
 
 # set up page name
-st.set_page_config(page_title="Chicagoland Healthcare Facility Covid Safety Database", page_icon="😷")
+st.set_page_config(page_title="WIP: Chicagoland Healthcare Facility Covid Safety Database", page_icon="😷")
 # set up title on the web application
 st.title("Chicagoland Healthcare Facility Covid Safety Database")
 st.header("Crowdsourced Database for Covid Precautions at Healthcare Facilities Around Chicagoland")
@@ -100,36 +100,69 @@ df = pd.DataFrame(dict)
 
 ##############################################################################
 
+#### Set Up Dataframe Filtering Function ####
+
+def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Adds a UI on top of a dataframe to let viewers filter columns
+
+    Args:
+        df (pd.DataFrame): Original dataframe
+
+    Returns:
+        pd.DataFrame: Filtered dataframe
+    """
+    modify = st.checkbox("Add filters")
+
+    if not modify:
+        return df.sort_values('hospital')
+
+    df = df.copy()
+
+    modification_container = st.container()
+        
+    with modification_container:
+        category =          st.selectbox("Please select the word category",sorted(df.columns))
+        category_filter = st.multiselect("Filter within category", sorted(df[category].unique()))
+
+    df = df.loc[df[category].isin(category_filter)]
+    df = df.sort_values('hospital')
+
+    return df
+
+##############################################################################
+
 #### Main function ####
 
 def main():
 
-    ##############################################################################
+    st.dataframe(
+                    data = filter_dataframe(df),
+                    width = 1000,
+                    hide_index = 1
+                    )
 
-    #### Allergen Selection ####
-
-
-    # have the user choose an allergen
-    user_mask_selection = st.selectbox("Please select your mask preference:", masks)
+    # # have the user choose an allergen
+    # user_mask_selection = st.selectbox("Please select your mask preference:", masks)
             
-    # reduce OpenFoodFacts dataframe to just rows with allergen selected
-    final_df = df[df['masks worn'].str.contains(user_mask_selection, na=False)]
-    # if there are no facilities, tell the user
-    if final_df.empty:
-        st.write(
-            "Based on the information available in our dataset, we did not find any potential facilities that matched your preference",
-            user_mask_selection,
-        )
-    #if there are facilities
-    else:
-        # may not need this anymore?
-        final_df = final_df.drop_duplicates()
-        # get length of OFF dataset for allergen
-        final_df_len = len(final_df)
-        st.write("We found", final_df_len, "facilities with", user_mask_selection,".")
-        # present a dataframe of brand, product, ingredient, and allergen
-        final_df.set_index(final_df.columns[0])
-        st.write("### Facilities with Mask Preference Present", final_df.sort_index())
+    # # reduce OpenFoodFacts dataframe to just rows with allergen selected
+    # final_df = df[df['masks worn'].str.contains(user_mask_selection, na=False)]
+    # # if there are no facilities, tell the user
+    # if final_df.empty:
+    #     st.write(
+    #         "Based on the information available in our dataset, we did not find any potential facilities that matched your preference",
+    #         user_mask_selection,
+    #     )
+    # #if there are facilities
+    # else:
+    #     # may not need this anymore?
+    #     final_df = final_df.drop_duplicates()
+    #     # get length of OFF dataset for allergen
+    #     final_df_len = len(final_df)
+    #     st.write("We found", final_df_len, "facilities with", user_mask_selection,".")
+    #     # present a dataframe of brand, product, ingredient, and allergen
+    #     final_df.set_index(final_df.columns[0])
+    #     st.write("### Facilities with Mask Preference Present", final_df.sort_index())
 
 if __name__ == "__main__":
     main()
