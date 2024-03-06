@@ -23,7 +23,7 @@ st.header("Crowdsourced Database for Covid Precautions at Healthcare Facilities 
 
 ##############################################################################
 
-# #### Reference Lists ####
+#### Reference Lists ####
 
 # # get hospital list
 # hospitals = [
@@ -88,10 +88,10 @@ st.header("Crowdsourced Database for Covid Precautions at Healthcare Facilities 
 #### Create Random Table ####
 
 # # get random samples from the lists above
-# sample_hospitals = random.choices(hospitals, k=100)
-# sample_facility_type = random.choices(facility_type, k=100)
-# sample_hepa = random.choices(hepa, k=100)
-# sample_masks = random.choices(masks, k=100)
+# sample_hospitals = random.choices(hospitals, k=1000)
+# sample_facility_type = random.choices(facility_type, k=1000)
+# sample_hepa = random.choices(hepa, k=1000)
+# sample_masks = random.choices(masks, k=1000)
 
 # dict = {'hospital': sample_hospitals, 'facility type': sample_facility_type, 
 #         'hepa available': sample_hepa, 'masks worn': sample_masks} 

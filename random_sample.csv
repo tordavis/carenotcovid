@@ -1,101 +1,1001 @@
 hospital,facility type,hepa available,masks worn
-Louis A. Weiss Memorial Hospital,Clinic,Maybe/Unknown,Proceedure/Surgical
+John H. Stroger Jr. Hospital of Cook County,Clinic,No,Proceedure/Surgical
+Comer Children's Hospital,Hospital,No,Not Applicable - no masks
+Northwestern Memorial Hospital,Speciality Treatment Center,Maybe/Unknown,Proceedure/Surgical
+Gardiner General Hospital,Speciality Treatment Center,Maybe/Unknown,Cloth
+Mercy Hospital and Medical Center,Dentist,Yes,Respirators - N95s or better
+University of Illinois Hospital & Health Sciences System,Dentist,Maybe/Unknown,Cloth
+Methodist Hospital of Chicago,Speciality Treatment Center,Yes,Unknown/Cannot Determine
+Ruth M. Rothstein CORE Center,Clinic,No,Not Applicable - no masks
+Swedish Hospital,Hospital,No,Not Applicable - no masks
+Lurie Children's Hospital,Speciality Treatment Center,Maybe/Unknown,Cloth
 Ryan AbilityLab,Dentist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Rush University Medical Center,Dentist,Yes,Respirators - N95s or better
-Louis A. Weiss Memorial Hospital,Optometrist,Yes,Respirators - N95s or better
-Prentice Women's Hospital,Hospital,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Robert H. Lurie Comprehensive Cancer Center,Optometrist,Yes,Unknown/Cannot Determine
-Lurie Children's Hospital,Speciality Treatment Center,No,Respirators - N95s or better
-Lurie Children's Hospital,Hospital,Maybe/Unknown,Proceedure/Surgical
-Northwestern Memorial Hospital,Hospital,No,Respirators - N95s or better
-Comer Children's Hospital,Dentist,Yes,Cloth
-Swedish Hospital,Optometrist,Yes,Unknown/Cannot Determine
-Gardiner General Hospital,Speciality Treatment Center,Yes,Unknown/Cannot Determine
-John H. Stroger Jr. Hospital of Cook County,Speciality Treatment Center,Yes,Cloth
-Provident Hospital,Optometrist,Yes,Proceedure/Surgical
-Mercy Hospital and Medical Center,Clinic,No,Respirators - N95s or better
-Holy Cross Hospital,Other,No,Respirators - N95s or better
-Chicago Lakeshore Hospital,Clinic,Yes,Unknown/Cannot Determine
-John H. Stroger Jr. Hospital of Cook County,Optometrist,Maybe/Unknown,Proceedure/Surgical
-Ryan AbilityLab,Speciality Treatment Center,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Illinois Eye and Ear Infirmary,Dentist,Maybe/Unknown,Unknown/Cannot Determine
-Mercy Hospital and Medical Center,Lab,No,Proceedure/Surgical
-Prentice Women's Hospital,Dentist,Yes,Unknown/Cannot Determine
-Methodist Hospital of Chicago,Hospital,No,Cloth
-Rush University Medical Center,Lab,No,Respirators - N95s or better
-University of Chicago Medical Center,Other,No,Not Applicable - no masks
-Mount Sinai Medical Center,Lab,Yes,Unknown/Cannot Determine
-Prentice Women's Hospital,Optometrist,Maybe/Unknown,Cloth
-Robert H. Lurie Comprehensive Cancer Center,Dentist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-University of Chicago Medical Center,Lab,No,Not Applicable - no masks
-Comer Children's Hospital,Dentist,Maybe/Unknown,Proceedure/Surgical
-Swedish Hospital,Dentist,No,Not Applicable - no masks
-Ruth M. Rothstein CORE Center,Speciality Treatment Center,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Holy Cross Hospital,Dentist,Yes,Not Applicable - no masks
-Advocate Illinois Masonic Medical Center,Speciality Treatment Center,No,Proceedure/Surgical
-Robert H. Lurie Comprehensive Cancer Center,Clinic,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Holy Cross Hospital,Speciality Treatment Center,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Comer Children's Hospital,Optometrist,No,Cloth
-La Rabida Children's Hospital,Lab,Maybe/Unknown,Unknown/Cannot Determine
-Prentice Women's Hospital,Optometrist,Maybe/Unknown,Proceedure/Surgical
-Swedish Hospital,Clinic,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Ruth M. Rothstein CORE Center,Speciality Treatment Center,Maybe/Unknown,Not Applicable - no masks
-Louis A. Weiss Memorial Hospital,Clinic,Yes,Cloth
-Rush University Medical Center,Dentist,Yes,Respirators - N95s or better
-Ryan AbilityLab,Lab,Maybe/Unknown,Unknown/Cannot Determine
-University of Illinois Hospital & Health Sciences System,Other,No,Unknown/Cannot Determine
-John H. Stroger Jr. Hospital of Cook County,Clinic,Maybe/Unknown,Unknown/Cannot Determine
-Provident Hospital,Hospital,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-John H. Stroger Jr. Hospital of Cook County,Lab,Maybe/Unknown,Proceedure/Surgical
-Northwestern Memorial Hospital,Hospital,No,Cloth
-Advocate Illinois Masonic Medical Center,Speciality Treatment Center,No,Unknown/Cannot Determine
-Illinois Eye and Ear Infirmary,Other,Yes,Proceedure/Surgical
-Methodist Hospital of Chicago,Dentist,Maybe/Unknown,Not Applicable - no masks
-Chicago-Read Mental Health Center,Dentist,No,Cloth
-Ryan AbilityLab,Dentist,Maybe/Unknown,Not Applicable - no masks
-Swedish Hospital,Lab,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Gardiner General Hospital,Dentist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Northwestern Memorial Hospital,Lab,Yes,Not Applicable - no masks
-Louis A. Weiss Memorial Hospital,Hospital,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-University of Illinois Hospital,Speciality Treatment Center,Yes,Not Applicable - no masks
-Louis A. Weiss Memorial Hospital,Dentist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Lurie Children's Hospital,Other,Maybe/Unknown,Not Applicable - no masks
-Illinois Eye and Ear Infirmary,Other,No,Unknown/Cannot Determine
-La Rabida Children's Hospital,Lab,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Chicago-Read Mental Health Center,Dentist,Yes,Respirators - N95s or better
-Gardiner General Hospital,Dentist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Ryan AbilityLab,Lab,Maybe/Unknown,Cloth
+Methodist Hospital of Chicago,Optometrist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+University of Chicago Medical Center,Dentist,Maybe/Unknown,Cloth
+Provident Hospital,Lab,Maybe/Unknown,Unknown/Cannot Determine
+Louis A. Weiss Memorial Hospital,Hospital,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Humboldt Park Health,Other,Maybe/Unknown,Unknown/Cannot Determine
+Robert H. Lurie Comprehensive Cancer Center,Dentist,No,Unknown/Cannot Determine
+Lurie Children's Hospital,Lab,No,Proceedure/Surgical
+University of Chicago Medical Center,Speciality Treatment Center,No,Respirators - N95s or better
+Lurie Children's Hospital,Speciality Treatment Center,Yes,Proceedure/Surgical
+Northwestern Memorial Hospital,Dentist,Yes,Respirators - N95s or better
+Ruth M. Rothstein CORE Center,Dentist,No,Unknown/Cannot Determine
+Methodist Hospital of Chicago,Hospital,Yes,Not Applicable - no masks
+La Rabida Children's Hospital,Dentist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Ruth M. Rothstein CORE Center,Lab,No,Cloth
+Methodist Hospital of Chicago,Dentist,No,Respirators - N95s or better
+Gardiner General Hospital,Optometrist,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+La Rabida Children's Hospital,Clinic,Maybe/Unknown,Proceedure/Surgical
+Comer Children's Hospital,Speciality Treatment Center,No,Cloth
+Mount Sinai Medical Center,Optometrist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Lurie Children's Hospital,Speciality Treatment Center,Maybe/Unknown,Unknown/Cannot Determine
+Holy Cross Hospital,Hospital,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Chicago Lakeshore Hospital,Dentist,Yes,Unknown/Cannot Determine
+La Rabida Children's Hospital,Speciality Treatment Center,No,Cloth
+John H. Stroger Jr. Hospital of Cook County,Speciality Treatment Center,Maybe/Unknown,Unknown/Cannot Determine
+John H. Stroger Jr. Hospital of Cook County,Hospital,Maybe/Unknown,Respirators - N95s or better
+University of Illinois Hospital,Hospital,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Holy Cross Hospital,Dentist,No,Not Applicable - no masks
+Ryan AbilityLab,Speciality Treatment Center,No,Not Applicable - no masks
+Gardiner General Hospital,Clinic,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Northwestern Memorial Hospital,Dentist,No,Not Applicable - no masks
+Mount Sinai Medical Center,Optometrist,No,Unknown/Cannot Determine
+Louis A. Weiss Memorial Hospital,Speciality Treatment Center,Yes,Cloth
+Chicago Lakeshore Hospital,Lab,No,Proceedure/Surgical
+University of Illinois Hospital & Health Sciences System,Lab,Yes,Respirators - N95s or better
+Gardiner General Hospital,Clinic,Yes,Cloth
+Methodist Hospital of Chicago,Optometrist,Maybe/Unknown,Respirators - N95s or better
+University of Illinois Hospital & Health Sciences System,Optometrist,Maybe/Unknown,Respirators - N95s or better
+La Rabida Children's Hospital,Other,Maybe/Unknown,Unknown/Cannot Determine
+Holy Cross Hospital,Lab,Yes,Unknown/Cannot Determine
+Northwestern Memorial Hospital,Lab,Yes,Unknown/Cannot Determine
+Illinois Eye and Ear Infirmary,Lab,Maybe/Unknown,Not Applicable - no masks
+Chicago Lakeshore Hospital,Optometrist,Yes,Unknown/Cannot Determine
+Gardiner General Hospital,Dentist,No,Respirators - N95s or better
+Mount Sinai Medical Center,Other,No,Cloth
+University of Chicago Medical Center,Optometrist,Yes,Cloth
+Lurie Children's Hospital,Hospital,Yes,Unknown/Cannot Determine
+Advocate Illinois Masonic Medical Center,Lab,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Methodist Hospital of Chicago,Lab,Maybe/Unknown,Respirators - N95s or better
+Chicago Lakeshore Hospital,Clinic,Maybe/Unknown,Cloth
+Humboldt Park Health,Speciality Treatment Center,Yes,Respirators - N95s or better
+Chicago Lakeshore Hospital,Optometrist,Maybe/Unknown,Unknown/Cannot Determine
+Methodist Hospital of Chicago,Clinic,Yes,Unknown/Cannot Determine
+Lurie Children's Hospital,Dentist,Maybe/Unknown,Cloth
+Swedish Hospital,Optometrist,Yes,Respirators - N95s or better
+Comer Children's Hospital,Clinic,Yes,Cloth
+Northwestern Memorial Hospital,Other,Yes,Respirators - N95s or better
+University of Illinois Hospital & Health Sciences System,Dentist,Maybe/Unknown,Not Applicable - no masks
+Ryan AbilityLab,Other,Maybe/Unknown,Unknown/Cannot Determine
+Advocate Illinois Masonic Medical Center,Hospital,No,Not Applicable - no masks
+Rush University Medical Center,Lab,No,Not Applicable - no masks
+Lurie Children's Hospital,Hospital,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Louis A. Weiss Memorial Hospital,Hospital,Yes,Unknown/Cannot Determine
+Swedish Hospital,Speciality Treatment Center,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Chicago Lakeshore Hospital,Clinic,Maybe/Unknown,Not Applicable - no masks
+Comer Children's Hospital,Lab,No,Proceedure/Surgical
+Gardiner General Hospital,Optometrist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Swedish Hospital,Dentist,Maybe/Unknown,Cloth
+Humboldt Park Health,Clinic,No,Proceedure/Surgical
+Humboldt Park Health,Lab,No,Respirators - N95s or better
+Mercy Hospital and Medical Center,Speciality Treatment Center,No,Cloth
 Gardiner General Hospital,Lab,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+University of Illinois Hospital & Health Sciences System,Other,Maybe/Unknown,Respirators - N95s or better
+Mercy Hospital and Medical Center,Other,Maybe/Unknown,Not Applicable - no masks
+Holy Cross Hospital,Lab,Yes,Cloth
+Holy Cross Hospital,Other,Maybe/Unknown,Unknown/Cannot Determine
+Robert H. Lurie Comprehensive Cancer Center,Dentist,Maybe/Unknown,Proceedure/Surgical
+Provident Hospital,Clinic,Yes,Proceedure/Surgical
+John H. Stroger Jr. Hospital of Cook County,Speciality Treatment Center,No,Not Applicable - no masks
 Humboldt Park Health,Dentist,No,Cloth
-Gardiner General Hospital,Clinic,Yes,Respirators - N95s or better
-Chicago Lakeshore Hospital,Lab,Yes,Respirators - N95s or better
-Swedish Hospital,Clinic,No,Unknown/Cannot Determine
-Chicago Lakeshore Hospital,Speciality Treatment Center,Yes,Cloth
-La Rabida Children's Hospital,Lab,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Humboldt Park Health,Lab,Maybe/Unknown,Proceedure/Surgical
-Gardiner General Hospital,Dentist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Prentice Women's Hospital,Clinic,Maybe/Unknown,Respirators - N95s or better
-Northwestern Memorial Hospital,Speciality Treatment Center,No,Respirators - N95s or better
-University of Illinois Hospital & Health Sciences System,Lab,No,Unknown/Cannot Determine
-Robert H. Lurie Comprehensive Cancer Center,Other,Maybe/Unknown,Cloth
-Mount Sinai Medical Center,Hospital,No,Proceedure/Surgical
-Ryan AbilityLab,Other,Yes,Respirators - N95s or better
-Ryan AbilityLab,Other,Yes,Proceedure/Surgical
-Lurie Children's Hospital,Lab,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Mercy Hospital and Medical Center,Dentist,No,Respirators - N95s or better
-Ryan AbilityLab,Hospital,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Holy Cross Hospital,Clinic,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Robert H. Lurie Comprehensive Cancer Center,Clinic,Yes,Proceedure/Surgical
-Louis A. Weiss Memorial Hospital,Dentist,Yes,Unknown/Cannot Determine
-University of Illinois Hospital,Other,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Louis A. Weiss Memorial Hospital,Optometrist,Yes,Proceedure/Surgical
-Robert H. Lurie Comprehensive Cancer Center,Speciality Treatment Center,Maybe/Unknown,Cloth
-Chicago-Read Mental Health Center,Speciality Treatment Center,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-Swedish Hospital,Clinic,Maybe/Unknown,Not Applicable - no masks
+Robert H. Lurie Comprehensive Cancer Center,Optometrist,Yes,Cloth
+Methodist Hospital of Chicago,Speciality Treatment Center,No,Unknown/Cannot Determine
+Chicago-Read Mental Health Center,Other,Maybe/Unknown,Proceedure/Surgical
+Chicago-Read Mental Health Center,Lab,Maybe/Unknown,Cloth
+Illinois Eye and Ear Infirmary,Hospital,Maybe/Unknown,Respirators - N95s or better
+Mount Sinai Medical Center,Hospital,Yes,Respirators - N95s or better
+Ryan AbilityLab,Speciality Treatment Center,No,Not Applicable - no masks
+Methodist Hospital of Chicago,Dentist,No,Proceedure/Surgical
+Mercy Hospital and Medical Center,Optometrist,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+University of Illinois Hospital,Clinic,Yes,Not Applicable - no masks
+John H. Stroger Jr. Hospital of Cook County,Speciality Treatment Center,No,Cloth
+University of Illinois Hospital & Health Sciences System,Dentist,Maybe/Unknown,Proceedure/Surgical
+Robert H. Lurie Comprehensive Cancer Center,Clinic,Maybe/Unknown,Not Applicable - no masks
+Ryan AbilityLab,Optometrist,Yes,Cloth
+Prentice Women's Hospital,Dentist,Maybe/Unknown,Cloth
+Provident Hospital,Speciality Treatment Center,No,Respirators - N95s or better
+University of Illinois Hospital & Health Sciences System,Optometrist,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Humboldt Park Health,Clinic,Yes,Proceedure/Surgical
+University of Illinois Hospital & Health Sciences System,Lab,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Lurie Children's Hospital,Hospital,Maybe/Unknown,Proceedure/Surgical
+University of Chicago Medical Center,Hospital,Yes,Cloth
+Methodist Hospital of Chicago,Clinic,Maybe/Unknown,Respirators - N95s or better
+Mount Sinai Medical Center,Speciality Treatment Center,Maybe/Unknown,Not Applicable - no masks
+John H. Stroger Jr. Hospital of Cook County,Hospital,No,Proceedure/Surgical
+Robert H. Lurie Comprehensive Cancer Center,Speciality Treatment Center,Maybe/Unknown,Unknown/Cannot Determine
+Illinois Eye and Ear Infirmary,Clinic,Maybe/Unknown,Proceedure/Surgical
+Chicago Lakeshore Hospital,Optometrist,Yes,Proceedure/Surgical
+Advocate Illinois Masonic Medical Center,Optometrist,Yes,Proceedure/Surgical
+Illinois Eye and Ear Infirmary,Dentist,Yes,Cloth
+Chicago Lakeshore Hospital,Speciality Treatment Center,Yes,Respirators - N95s or better
+John H. Stroger Jr. Hospital of Cook County,Dentist,Yes,Respirators - N95s or better
+Mercy Hospital and Medical Center,Clinic,No,Not Applicable - no masks
+Ruth M. Rothstein CORE Center,Speciality Treatment Center,Maybe/Unknown,Not Applicable - no masks
+Gardiner General Hospital,Clinic,No,Unknown/Cannot Determine
+John H. Stroger Jr. Hospital of Cook County,Other,Maybe/Unknown,Not Applicable - no masks
+Ruth M. Rothstein CORE Center,Optometrist,No,Unknown/Cannot Determine
+Louis A. Weiss Memorial Hospital,Dentist,Maybe/Unknown,Not Applicable - no masks
+University of Illinois Hospital & Health Sciences System,Hospital,No,Not Applicable - no masks
+John H. Stroger Jr. Hospital of Cook County,Speciality Treatment Center,Yes,Cloth
+Northwestern Memorial Hospital,Lab,Maybe/Unknown,Proceedure/Surgical
+Rush University Medical Center,Optometrist,Yes,Unknown/Cannot Determine
+La Rabida Children's Hospital,Other,Yes,Not Applicable - no masks
+John H. Stroger Jr. Hospital of Cook County,Speciality Treatment Center,Yes,Not Applicable - no masks
+Mount Sinai Medical Center,Other,Maybe/Unknown,Respirators - N95s or better
+University of Illinois Hospital,Hospital,Yes,Cloth
+Chicago Lakeshore Hospital,Dentist,Maybe/Unknown,Cloth
+Rush University Medical Center,Speciality Treatment Center,No,Unknown/Cannot Determine
+Rush University Medical Center,Hospital,Yes,Unknown/Cannot Determine
+Robert H. Lurie Comprehensive Cancer Center,Hospital,Yes,Cloth
+Humboldt Park Health,Speciality Treatment Center,No,Not Applicable - no masks
+Provident Hospital,Lab,No,Proceedure/Surgical
+University of Illinois Hospital & Health Sciences System,Dentist,Yes,Respirators - N95s or better
+Gardiner General Hospital,Lab,Maybe/Unknown,Cloth
+Swedish Hospital,Optometrist,Maybe/Unknown,Unknown/Cannot Determine
+La Rabida Children's Hospital,Optometrist,Maybe/Unknown,Cloth
+Northwestern Memorial Hospital,Speciality Treatment Center,Maybe/Unknown,Not Applicable - no masks
+Swedish Hospital,Lab,Maybe/Unknown,Proceedure/Surgical
+Comer Children's Hospital,Hospital,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+University of Illinois Hospital & Health Sciences System,Lab,Yes,Not Applicable - no masks
+Methodist Hospital of Chicago,Other,Yes,Cloth
+Gardiner General Hospital,Lab,Yes,Not Applicable - no masks
+Comer Children's Hospital,Hospital,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Swedish Hospital,Other,Yes,Cloth
+Chicago Lakeshore Hospital,Speciality Treatment Center,Yes,Proceedure/Surgical
+Mount Sinai Medical Center,Lab,Yes,Unknown/Cannot Determine
+Comer Children's Hospital,Clinic,Yes,Respirators - N95s or better
+Provident Hospital,Speciality Treatment Center,Maybe/Unknown,Proceedure/Surgical
+Advocate Illinois Masonic Medical Center,Hospital,Yes,Unknown/Cannot Determine
+Robert H. Lurie Comprehensive Cancer Center,Speciality Treatment Center,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Louis A. Weiss Memorial Hospital,Lab,Yes,Respirators - N95s or better
+Advocate Illinois Masonic Medical Center,Dentist,Maybe/Unknown,Cloth
+Northwestern Memorial Hospital,Clinic,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Swedish Hospital,Other,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
 Northwestern Memorial Hospital,Optometrist,Maybe/Unknown,Cloth
-John H. Stroger Jr. Hospital of Cook County,Optometrist,Yes,Cloth
-University of Illinois Hospital & Health Sciences System,Clinic,No,Unknown/Cannot Determine
-Gardiner General Hospital,Optometrist,No,Unknown/Cannot Determine
-University of Chicago Medical Center,Dentist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
-University of Illinois Hospital,Clinic,No,Unknown/Cannot Determine
+Holy Cross Hospital,Optometrist,Yes,Proceedure/Surgical
+Lurie Children's Hospital,Other,No,Proceedure/Surgical
+Chicago-Read Mental Health Center,Optometrist,Maybe/Unknown,Respirators - N95s or better
+La Rabida Children's Hospital,Clinic,No,Proceedure/Surgical
+Gardiner General Hospital,Speciality Treatment Center,No,Cloth
+Robert H. Lurie Comprehensive Cancer Center,Hospital,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Ryan AbilityLab,Speciality Treatment Center,Maybe/Unknown,Not Applicable - no masks
+Ruth M. Rothstein CORE Center,Dentist,No,Cloth
+Illinois Eye and Ear Infirmary,Dentist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Illinois Eye and Ear Infirmary,Other,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Chicago-Read Mental Health Center,Hospital,No,Cloth
+Illinois Eye and Ear Infirmary,Optometrist,Yes,Proceedure/Surgical
+University of Chicago Medical Center,Lab,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Provident Hospital,Clinic,Maybe/Unknown,Proceedure/Surgical
+Illinois Eye and Ear Infirmary,Speciality Treatment Center,No,Respirators - N95s or better
+Prentice Women's Hospital,Hospital,Yes,Respirators - N95s or better
+Rush University Medical Center,Lab,Yes,Respirators - N95s or better
+Comer Children's Hospital,Dentist,Yes,Unknown/Cannot Determine
+Holy Cross Hospital,Other,Maybe/Unknown,Unknown/Cannot Determine
+Provident Hospital,Clinic,Maybe/Unknown,Not Applicable - no masks
+Ryan AbilityLab,Optometrist,No,Respirators - N95s or better
+Comer Children's Hospital,Speciality Treatment Center,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Ruth M. Rothstein CORE Center,Optometrist,No,Proceedure/Surgical
+Holy Cross Hospital,Clinic,Maybe/Unknown,Unknown/Cannot Determine
+Comer Children's Hospital,Other,No,Unknown/Cannot Determine
+University of Illinois Hospital,Other,Yes,Proceedure/Surgical
+Holy Cross Hospital,Lab,Yes,Not Applicable - no masks
+Prentice Women's Hospital,Other,Yes,Proceedure/Surgical
+Comer Children's Hospital,Hospital,Maybe/Unknown,Respirators - N95s or better
+Mercy Hospital and Medical Center,Hospital,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Swedish Hospital,Other,Maybe/Unknown,Respirators - N95s or better
+Comer Children's Hospital,Other,Yes,Not Applicable - no masks
+Holy Cross Hospital,Optometrist,No,Respirators - N95s or better
+Rush University Medical Center,Lab,Yes,Respirators - N95s or better
+Methodist Hospital of Chicago,Clinic,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Ruth M. Rothstein CORE Center,Clinic,Maybe/Unknown,Proceedure/Surgical
+University of Illinois Hospital & Health Sciences System,Hospital,Maybe/Unknown,Not Applicable - no masks
+Robert H. Lurie Comprehensive Cancer Center,Clinic,Yes,Not Applicable - no masks
+Methodist Hospital of Chicago,Clinic,Yes,Respirators - N95s or better
+Holy Cross Hospital,Lab,Yes,Proceedure/Surgical
+University of Illinois Hospital & Health Sciences System,Hospital,Maybe/Unknown,Not Applicable - no masks
+Louis A. Weiss Memorial Hospital,Other,Maybe/Unknown,Unknown/Cannot Determine
+Prentice Women's Hospital,Lab,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Holy Cross Hospital,Dentist,Yes,Cloth
+Gardiner General Hospital,Clinic,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Provident Hospital,Optometrist,Maybe/Unknown,Respirators - N95s or better
+Prentice Women's Hospital,Speciality Treatment Center,Yes,Respirators - N95s or better
+Chicago-Read Mental Health Center,Hospital,Maybe/Unknown,Proceedure/Surgical
+Methodist Hospital of Chicago,Speciality Treatment Center,No,Cloth
+Lurie Children's Hospital,Other,Maybe/Unknown,Cloth
+John H. Stroger Jr. Hospital of Cook County,Clinic,No,Respirators - N95s or better
+University of Illinois Hospital,Speciality Treatment Center,Maybe/Unknown,Not Applicable - no masks
+Robert H. Lurie Comprehensive Cancer Center,Lab,Maybe/Unknown,Unknown/Cannot Determine
+Chicago-Read Mental Health Center,Lab,No,Proceedure/Surgical
+Prentice Women's Hospital,Lab,No,Unknown/Cannot Determine
+Methodist Hospital of Chicago,Hospital,Yes,Respirators - N95s or better
+Methodist Hospital of Chicago,Optometrist,No,Proceedure/Surgical
+Gardiner General Hospital,Dentist,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Lurie Children's Hospital,Clinic,No,Cloth
+Rush University Medical Center,Clinic,Yes,Not Applicable - no masks
+Prentice Women's Hospital,Speciality Treatment Center,No,Not Applicable - no masks
+University of Illinois Hospital & Health Sciences System,Other,Yes,Respirators - N95s or better
+Swedish Hospital,Dentist,Maybe/Unknown,Proceedure/Surgical
+La Rabida Children's Hospital,Optometrist,No,Cloth
+La Rabida Children's Hospital,Speciality Treatment Center,No,Not Applicable - no masks
+John H. Stroger Jr. Hospital of Cook County,Speciality Treatment Center,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Methodist Hospital of Chicago,Dentist,Maybe/Unknown,Respirators - N95s or better
+Provident Hospital,Hospital,Maybe/Unknown,Cloth
+Ryan AbilityLab,Dentist,No,Cloth
+Provident Hospital,Other,Maybe/Unknown,Proceedure/Surgical
+Swedish Hospital,Clinic,Yes,Not Applicable - no masks
+Illinois Eye and Ear Infirmary,Optometrist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Swedish Hospital,Hospital,Maybe/Unknown,Respirators - N95s or better
+Gardiner General Hospital,Clinic,Yes,Cloth
+Advocate Illinois Masonic Medical Center,Dentist,No,Proceedure/Surgical
+Lurie Children's Hospital,Other,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Lurie Children's Hospital,Dentist,Maybe/Unknown,Cloth
+Swedish Hospital,Speciality Treatment Center,No,Not Applicable - no masks
+University of Illinois Hospital & Health Sciences System,Optometrist,Yes,Respirators - N95s or better
+Prentice Women's Hospital,Lab,Maybe/Unknown,Unknown/Cannot Determine
+Chicago Lakeshore Hospital,Dentist,Maybe/Unknown,Respirators - N95s or better
+Rush University Medical Center,Clinic,Yes,Respirators - N95s or better
+La Rabida Children's Hospital,Lab,Maybe/Unknown,Not Applicable - no masks
+La Rabida Children's Hospital,Clinic,Maybe/Unknown,Unknown/Cannot Determine
+Humboldt Park Health,Dentist,Yes,Respirators - N95s or better
+La Rabida Children's Hospital,Clinic,No,Cloth
+Gardiner General Hospital,Hospital,No,Cloth
+Mercy Hospital and Medical Center,Clinic,No,Cloth
+John H. Stroger Jr. Hospital of Cook County,Other,No,Not Applicable - no masks
+Holy Cross Hospital,Hospital,No,Not Applicable - no masks
+Chicago-Read Mental Health Center,Dentist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Provident Hospital,Lab,Yes,Proceedure/Surgical
+Swedish Hospital,Optometrist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Holy Cross Hospital,Lab,No,Respirators - N95s or better
+Robert H. Lurie Comprehensive Cancer Center,Dentist,Yes,Not Applicable - no masks
+La Rabida Children's Hospital,Lab,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Ryan AbilityLab,Optometrist,No,Respirators - N95s or better
+Humboldt Park Health,Hospital,Maybe/Unknown,Respirators - N95s or better
+Louis A. Weiss Memorial Hospital,Clinic,No,Cloth
+Advocate Illinois Masonic Medical Center,Lab,No,Respirators - N95s or better
+Ruth M. Rothstein CORE Center,Hospital,Maybe/Unknown,Cloth
+Humboldt Park Health,Hospital,Yes,Proceedure/Surgical
+Advocate Illinois Masonic Medical Center,Lab,Maybe/Unknown,Respirators - N95s or better
+Swedish Hospital,Dentist,Yes,Respirators - N95s or better
+Mercy Hospital and Medical Center,Optometrist,No,Respirators - N95s or better
+Illinois Eye and Ear Infirmary,Hospital,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Chicago Lakeshore Hospital,Hospital,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+University of Illinois Hospital,Clinic,No,Cloth
+University of Chicago Medical Center,Other,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Rush University Medical Center,Optometrist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Illinois Eye and Ear Infirmary,Speciality Treatment Center,No,Unknown/Cannot Determine
+University of Chicago Medical Center,Lab,Maybe/Unknown,Cloth
+Louis A. Weiss Memorial Hospital,Lab,Maybe/Unknown,Unknown/Cannot Determine
+Advocate Illinois Masonic Medical Center,Hospital,No,Proceedure/Surgical
+Mount Sinai Medical Center,Optometrist,No,Respirators - N95s or better
+Comer Children's Hospital,Lab,No,Unknown/Cannot Determine
+University of Illinois Hospital,Lab,No,Cloth
+Chicago Lakeshore Hospital,Clinic,No,Unknown/Cannot Determine
+Mount Sinai Medical Center,Optometrist,Maybe/Unknown,Not Applicable - no masks
+Ruth M. Rothstein CORE Center,Clinic,Maybe/Unknown,Not Applicable - no masks
+Provident Hospital,Clinic,Maybe/Unknown,Unknown/Cannot Determine
+Robert H. Lurie Comprehensive Cancer Center,Lab,Maybe/Unknown,Cloth
+Swedish Hospital,Speciality Treatment Center,Maybe/Unknown,Respirators - N95s or better
+Gardiner General Hospital,Lab,Yes,Unknown/Cannot Determine
+University of Illinois Hospital & Health Sciences System,Hospital,No,Respirators - N95s or better
+Provident Hospital,Hospital,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Louis A. Weiss Memorial Hospital,Clinic,Yes,Not Applicable - no masks
+Advocate Illinois Masonic Medical Center,Optometrist,No,Not Applicable - no masks
+Humboldt Park Health,Optometrist,Yes,Proceedure/Surgical
+Chicago Lakeshore Hospital,Hospital,Yes,Respirators - N95s or better
+Robert H. Lurie Comprehensive Cancer Center,Clinic,No,Not Applicable - no masks
+Illinois Eye and Ear Infirmary,Other,No,Unknown/Cannot Determine
+Comer Children's Hospital,Hospital,Yes,Cloth
+Provident Hospital,Speciality Treatment Center,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Northwestern Memorial Hospital,Dentist,Yes,Respirators - N95s or better
+Advocate Illinois Masonic Medical Center,Clinic,Maybe/Unknown,Unknown/Cannot Determine
+Northwestern Memorial Hospital,Dentist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Chicago Lakeshore Hospital,Dentist,Yes,Unknown/Cannot Determine
+Robert H. Lurie Comprehensive Cancer Center,Hospital,No,Not Applicable - no masks
+Advocate Illinois Masonic Medical Center,Other,No,Proceedure/Surgical
+Provident Hospital,Speciality Treatment Center,No,Cloth
+Provident Hospital,Optometrist,Yes,Cloth
+Methodist Hospital of Chicago,Hospital,Maybe/Unknown,Not Applicable - no masks
+Robert H. Lurie Comprehensive Cancer Center,Clinic,Yes,Unknown/Cannot Determine
+Methodist Hospital of Chicago,Lab,Yes,Cloth
+Prentice Women's Hospital,Speciality Treatment Center,Maybe/Unknown,Proceedure/Surgical
+Chicago Lakeshore Hospital,Dentist,Maybe/Unknown,Unknown/Cannot Determine
+Chicago-Read Mental Health Center,Speciality Treatment Center,No,Cloth
+Provident Hospital,Other,Maybe/Unknown,Not Applicable - no masks
+Lurie Children's Hospital,Other,No,Respirators - N95s or better
+Comer Children's Hospital,Dentist,Yes,Not Applicable - no masks
+Mount Sinai Medical Center,Hospital,Yes,Respirators - N95s or better
+Illinois Eye and Ear Infirmary,Clinic,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Swedish Hospital,Dentist,Maybe/Unknown,Unknown/Cannot Determine
+Provident Hospital,Dentist,Maybe/Unknown,Not Applicable - no masks
+Mount Sinai Medical Center,Hospital,Yes,Not Applicable - no masks
+Advocate Illinois Masonic Medical Center,Other,Maybe/Unknown,Respirators - N95s or better
+Louis A. Weiss Memorial Hospital,Optometrist,Maybe/Unknown,Respirators - N95s or better
+University of Illinois Hospital & Health Sciences System,Clinic,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Robert H. Lurie Comprehensive Cancer Center,Speciality Treatment Center,Maybe/Unknown,Unknown/Cannot Determine
+University of Illinois Hospital,Clinic,Maybe/Unknown,Respirators - N95s or better
+University of Illinois Hospital & Health Sciences System,Other,No,Unknown/Cannot Determine
+University of Illinois Hospital & Health Sciences System,Lab,No,Respirators - N95s or better
+Methodist Hospital of Chicago,Optometrist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Mount Sinai Medical Center,Optometrist,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+University of Illinois Hospital,Lab,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Robert H. Lurie Comprehensive Cancer Center,Clinic,No,Cloth
+Robert H. Lurie Comprehensive Cancer Center,Optometrist,No,Respirators - N95s or better
+Mount Sinai Medical Center,Other,Maybe/Unknown,Proceedure/Surgical
+University of Illinois Hospital,Speciality Treatment Center,Yes,Proceedure/Surgical
+Provident Hospital,Clinic,Maybe/Unknown,Not Applicable - no masks
+Lurie Children's Hospital,Optometrist,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Humboldt Park Health,Other,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Northwestern Memorial Hospital,Speciality Treatment Center,Yes,Proceedure/Surgical
+La Rabida Children's Hospital,Other,Yes,Unknown/Cannot Determine
+Swedish Hospital,Other,No,Not Applicable - no masks
+Prentice Women's Hospital,Lab,No,Cloth
+Provident Hospital,Dentist,Maybe/Unknown,Unknown/Cannot Determine
+Ruth M. Rothstein CORE Center,Optometrist,Yes,Not Applicable - no masks
+Chicago Lakeshore Hospital,Speciality Treatment Center,No,Unknown/Cannot Determine
+La Rabida Children's Hospital,Other,Yes,Cloth
+Chicago Lakeshore Hospital,Other,No,Not Applicable - no masks
+Chicago Lakeshore Hospital,Hospital,No,Not Applicable - no masks
+Holy Cross Hospital,Speciality Treatment Center,Maybe/Unknown,Unknown/Cannot Determine
+Rush University Medical Center,Other,Maybe/Unknown,Unknown/Cannot Determine
+Robert H. Lurie Comprehensive Cancer Center,Clinic,Maybe/Unknown,Unknown/Cannot Determine
+Lurie Children's Hospital,Lab,Maybe/Unknown,Respirators - N95s or better
+University of Illinois Hospital,Optometrist,No,Unknown/Cannot Determine
+Humboldt Park Health,Optometrist,Yes,Proceedure/Surgical
+Comer Children's Hospital,Optometrist,Yes,Respirators - N95s or better
+Provident Hospital,Speciality Treatment Center,Yes,Unknown/Cannot Determine
+Humboldt Park Health,Lab,Yes,Respirators - N95s or better
+Mercy Hospital and Medical Center,Dentist,No,Proceedure/Surgical
+Robert H. Lurie Comprehensive Cancer Center,Lab,Maybe/Unknown,Cloth
+University of Chicago Medical Center,Lab,Maybe/Unknown,Cloth
+Rush University Medical Center,Speciality Treatment Center,Yes,Respirators - N95s or better
+University of Chicago Medical Center,Lab,Yes,Unknown/Cannot Determine
+John H. Stroger Jr. Hospital of Cook County,Lab,Maybe/Unknown,Not Applicable - no masks
+Robert H. Lurie Comprehensive Cancer Center,Lab,Yes,Unknown/Cannot Determine
+Chicago-Read Mental Health Center,Optometrist,Yes,Cloth
+Advocate Illinois Masonic Medical Center,Dentist,Maybe/Unknown,Respirators - N95s or better
+Mount Sinai Medical Center,Other,Maybe/Unknown,Unknown/Cannot Determine
+Holy Cross Hospital,Dentist,Yes,Unknown/Cannot Determine
+Advocate Illinois Masonic Medical Center,Optometrist,No,Not Applicable - no masks
+Swedish Hospital,Lab,Yes,Proceedure/Surgical
+Swedish Hospital,Speciality Treatment Center,Yes,Cloth
+Northwestern Memorial Hospital,Other,No,Cloth
+University of Chicago Medical Center,Optometrist,No,Respirators - N95s or better
+Swedish Hospital,Clinic,Maybe/Unknown,Proceedure/Surgical
+Mercy Hospital and Medical Center,Optometrist,Yes,Cloth
+John H. Stroger Jr. Hospital of Cook County,Optometrist,Maybe/Unknown,Respirators - N95s or better
+Northwestern Memorial Hospital,Hospital,Maybe/Unknown,Proceedure/Surgical
+Comer Children's Hospital,Lab,No,Proceedure/Surgical
+Provident Hospital,Clinic,Maybe/Unknown,Cloth
+Lurie Children's Hospital,Optometrist,Maybe/Unknown,Not Applicable - no masks
+Holy Cross Hospital,Dentist,Yes,Respirators - N95s or better
+Robert H. Lurie Comprehensive Cancer Center,Hospital,Yes,Not Applicable - no masks
+La Rabida Children's Hospital,Speciality Treatment Center,No,Cloth
+Provident Hospital,Dentist,No,Proceedure/Surgical
+University of Illinois Hospital,Lab,Yes,Unknown/Cannot Determine
+Mount Sinai Medical Center,Other,No,Proceedure/Surgical
+Rush University Medical Center,Other,Maybe/Unknown,Respirators - N95s or better
+Rush University Medical Center,Lab,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Lurie Children's Hospital,Hospital,Maybe/Unknown,Unknown/Cannot Determine
+Mount Sinai Medical Center,Clinic,Yes,Respirators - N95s or better
+University of Illinois Hospital & Health Sciences System,Lab,Yes,Cloth
+University of Illinois Hospital & Health Sciences System,Hospital,Yes,Respirators - N95s or better
+Comer Children's Hospital,Lab,Maybe/Unknown,Cloth
+Holy Cross Hospital,Clinic,Yes,Cloth
+Swedish Hospital,Optometrist,Maybe/Unknown,Unknown/Cannot Determine
+John H. Stroger Jr. Hospital of Cook County,Dentist,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Comer Children's Hospital,Optometrist,No,Not Applicable - no masks
+Ryan AbilityLab,Optometrist,Yes,Respirators - N95s or better
+Mount Sinai Medical Center,Lab,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Chicago-Read Mental Health Center,Optometrist,Maybe/Unknown,Unknown/Cannot Determine
+Lurie Children's Hospital,Speciality Treatment Center,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Northwestern Memorial Hospital,Other,No,Not Applicable - no masks
+University of Illinois Hospital,Dentist,Maybe/Unknown,Respirators - N95s or better
+Lurie Children's Hospital,Optometrist,Yes,Proceedure/Surgical
+Northwestern Memorial Hospital,Hospital,Yes,Proceedure/Surgical
+John H. Stroger Jr. Hospital of Cook County,Hospital,No,Cloth
+Advocate Illinois Masonic Medical Center,Optometrist,No,Respirators - N95s or better
+Humboldt Park Health,Clinic,No,Not Applicable - no masks
+University of Illinois Hospital & Health Sciences System,Lab,Yes,Unknown/Cannot Determine
+Provident Hospital,Clinic,Yes,Not Applicable - no masks
+Northwestern Memorial Hospital,Clinic,No,Not Applicable - no masks
+Louis A. Weiss Memorial Hospital,Optometrist,Maybe/Unknown,Proceedure/Surgical
+Louis A. Weiss Memorial Hospital,Speciality Treatment Center,Maybe/Unknown,Proceedure/Surgical
+Advocate Illinois Masonic Medical Center,Clinic,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Methodist Hospital of Chicago,Dentist,No,Respirators - N95s or better
+University of Illinois Hospital & Health Sciences System,Optometrist,Maybe/Unknown,Not Applicable - no masks
+La Rabida Children's Hospital,Lab,Maybe/Unknown,Cloth
+Mercy Hospital and Medical Center,Speciality Treatment Center,Yes,Cloth
+Robert H. Lurie Comprehensive Cancer Center,Speciality Treatment Center,No,Cloth
+Ryan AbilityLab,Speciality Treatment Center,Yes,Unknown/Cannot Determine
+Provident Hospital,Dentist,Yes,Respirators - N95s or better
+Ryan AbilityLab,Hospital,Yes,Cloth
+Mount Sinai Medical Center,Clinic,No,Not Applicable - no masks
+Mercy Hospital and Medical Center,Hospital,No,Unknown/Cannot Determine
+Lurie Children's Hospital,Hospital,Yes,Cloth
+John H. Stroger Jr. Hospital of Cook County,Dentist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Advocate Illinois Masonic Medical Center,Dentist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Northwestern Memorial Hospital,Hospital,No,Not Applicable - no masks
+John H. Stroger Jr. Hospital of Cook County,Dentist,Maybe/Unknown,Proceedure/Surgical
+John H. Stroger Jr. Hospital of Cook County,Lab,No,Cloth
+University of Illinois Hospital & Health Sciences System,Hospital,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Ryan AbilityLab,Dentist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Northwestern Memorial Hospital,Dentist,Yes,Cloth
+Holy Cross Hospital,Optometrist,No,Cloth
+Ruth M. Rothstein CORE Center,Other,Maybe/Unknown,Cloth
+Gardiner General Hospital,Optometrist,Maybe/Unknown,Unknown/Cannot Determine
+Gardiner General Hospital,Hospital,Yes,Unknown/Cannot Determine
+Chicago Lakeshore Hospital,Lab,Yes,Not Applicable - no masks
+La Rabida Children's Hospital,Clinic,Maybe/Unknown,Cloth
+Robert H. Lurie Comprehensive Cancer Center,Hospital,Maybe/Unknown,Respirators - N95s or better
+Rush University Medical Center,Dentist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Swedish Hospital,Lab,No,Cloth
+Mount Sinai Medical Center,Optometrist,Maybe/Unknown,Unknown/Cannot Determine
+Louis A. Weiss Memorial Hospital,Optometrist,No,Unknown/Cannot Determine
+Illinois Eye and Ear Infirmary,Speciality Treatment Center,No,Not Applicable - no masks
+Chicago Lakeshore Hospital,Speciality Treatment Center,Maybe/Unknown,Not Applicable - no masks
+Holy Cross Hospital,Dentist,Maybe/Unknown,Respirators - N95s or better
+Ruth M. Rothstein CORE Center,Other,No,Respirators - N95s or better
+Lurie Children's Hospital,Optometrist,Yes,Respirators - N95s or better
+John H. Stroger Jr. Hospital of Cook County,Other,Yes,Respirators - N95s or better
+Mercy Hospital and Medical Center,Optometrist,Maybe/Unknown,Cloth
+Rush University Medical Center,Optometrist,Yes,Unknown/Cannot Determine
+Comer Children's Hospital,Clinic,Maybe/Unknown,Proceedure/Surgical
+Provident Hospital,Speciality Treatment Center,Yes,Cloth
+Louis A. Weiss Memorial Hospital,Speciality Treatment Center,No,Cloth
+Chicago-Read Mental Health Center,Lab,Maybe/Unknown,Not Applicable - no masks
+La Rabida Children's Hospital,Dentist,Yes,Cloth
+University of Chicago Medical Center,Speciality Treatment Center,Maybe/Unknown,Cloth
+Mercy Hospital and Medical Center,Clinic,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+John H. Stroger Jr. Hospital of Cook County,Hospital,Yes,Proceedure/Surgical
+La Rabida Children's Hospital,Lab,No,Unknown/Cannot Determine
+Rush University Medical Center,Hospital,No,Not Applicable - no masks
+Ruth M. Rothstein CORE Center,Lab,Yes,Not Applicable - no masks
+Holy Cross Hospital,Clinic,No,Proceedure/Surgical
+Methodist Hospital of Chicago,Speciality Treatment Center,Maybe/Unknown,Respirators - N95s or better
+Prentice Women's Hospital,Speciality Treatment Center,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Prentice Women's Hospital,Optometrist,Maybe/Unknown,Not Applicable - no masks
+University of Chicago Medical Center,Dentist,Yes,Respirators - N95s or better
+University of Chicago Medical Center,Lab,Maybe/Unknown,Cloth
+Chicago-Read Mental Health Center,Hospital,Yes,Cloth
+Mount Sinai Medical Center,Hospital,Yes,Not Applicable - no masks
+Humboldt Park Health,Hospital,Maybe/Unknown,Cloth
+La Rabida Children's Hospital,Hospital,Maybe/Unknown,Cloth
+University of Chicago Medical Center,Optometrist,Yes,Proceedure/Surgical
+Prentice Women's Hospital,Clinic,Maybe/Unknown,Respirators - N95s or better
+Humboldt Park Health,Speciality Treatment Center,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Louis A. Weiss Memorial Hospital,Lab,Yes,Unknown/Cannot Determine
+University of Illinois Hospital,Dentist,Maybe/Unknown,Proceedure/Surgical
+Prentice Women's Hospital,Other,Yes,Respirators - N95s or better
+Illinois Eye and Ear Infirmary,Lab,Maybe/Unknown,Not Applicable - no masks
+Advocate Illinois Masonic Medical Center,Optometrist,No,Not Applicable - no masks
+Prentice Women's Hospital,Other,Maybe/Unknown,Cloth
+Holy Cross Hospital,Lab,Maybe/Unknown,Unknown/Cannot Determine
+Louis A. Weiss Memorial Hospital,Other,Yes,Respirators - N95s or better
+John H. Stroger Jr. Hospital of Cook County,Speciality Treatment Center,Maybe/Unknown,Cloth
+Illinois Eye and Ear Infirmary,Speciality Treatment Center,Yes,Cloth
+Gardiner General Hospital,Dentist,Yes,Cloth
+Humboldt Park Health,Hospital,No,Not Applicable - no masks
+Gardiner General Hospital,Lab,Yes,Proceedure/Surgical
+Holy Cross Hospital,Other,Maybe/Unknown,Proceedure/Surgical
+Rush University Medical Center,Lab,No,Proceedure/Surgical
+Illinois Eye and Ear Infirmary,Hospital,Maybe/Unknown,Respirators - N95s or better
+Swedish Hospital,Hospital,Maybe/Unknown,Proceedure/Surgical
+Chicago-Read Mental Health Center,Lab,No,Not Applicable - no masks
+Methodist Hospital of Chicago,Other,Yes,Proceedure/Surgical
+Advocate Illinois Masonic Medical Center,Other,Maybe/Unknown,Respirators - N95s or better
+Northwestern Memorial Hospital,Clinic,Maybe/Unknown,Not Applicable - no masks
+Advocate Illinois Masonic Medical Center,Clinic,No,Cloth
+John H. Stroger Jr. Hospital of Cook County,Clinic,Yes,Not Applicable - no masks
+Chicago Lakeshore Hospital,Other,Yes,Cloth
+Humboldt Park Health,Speciality Treatment Center,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Swedish Hospital,Other,Maybe/Unknown,Not Applicable - no masks
+Rush University Medical Center,Optometrist,No,Unknown/Cannot Determine
+Louis A. Weiss Memorial Hospital,Hospital,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Louis A. Weiss Memorial Hospital,Lab,Yes,Respirators - N95s or better
+Humboldt Park Health,Dentist,No,Respirators - N95s or better
+Humboldt Park Health,Speciality Treatment Center,Yes,Respirators - N95s or better
+University of Chicago Medical Center,Lab,Yes,Not Applicable - no masks
+Methodist Hospital of Chicago,Other,Maybe/Unknown,Proceedure/Surgical
+La Rabida Children's Hospital,Other,Yes,Cloth
+Northwestern Memorial Hospital,Other,Maybe/Unknown,Not Applicable - no masks
+Ruth M. Rothstein CORE Center,Hospital,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Mercy Hospital and Medical Center,Dentist,Yes,Respirators - N95s or better
+Northwestern Memorial Hospital,Clinic,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+John H. Stroger Jr. Hospital of Cook County,Optometrist,Yes,Respirators - N95s or better
+Mount Sinai Medical Center,Lab,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Gardiner General Hospital,Hospital,No,Not Applicable - no masks
+John H. Stroger Jr. Hospital of Cook County,Optometrist,No,Unknown/Cannot Determine
+Robert H. Lurie Comprehensive Cancer Center,Clinic,Maybe/Unknown,Unknown/Cannot Determine
+Lurie Children's Hospital,Speciality Treatment Center,Yes,Respirators - N95s or better
+Advocate Illinois Masonic Medical Center,Hospital,Yes,Unknown/Cannot Determine
+Mercy Hospital and Medical Center,Dentist,No,Unknown/Cannot Determine
+Chicago Lakeshore Hospital,Lab,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Louis A. Weiss Memorial Hospital,Hospital,No,Not Applicable - no masks
+Gardiner General Hospital,Optometrist,No,Proceedure/Surgical
+University of Illinois Hospital,Hospital,Maybe/Unknown,Not Applicable - no masks
+Rush University Medical Center,Clinic,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+University of Chicago Medical Center,Speciality Treatment Center,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Methodist Hospital of Chicago,Dentist,Maybe/Unknown,Respirators - N95s or better
+Ruth M. Rothstein CORE Center,Dentist,Yes,Proceedure/Surgical
+Mount Sinai Medical Center,Clinic,No,Respirators - N95s or better
+Louis A. Weiss Memorial Hospital,Lab,No,Respirators - N95s or better
+Chicago Lakeshore Hospital,Dentist,No,Unknown/Cannot Determine
+Chicago Lakeshore Hospital,Speciality Treatment Center,No,Proceedure/Surgical
+Illinois Eye and Ear Infirmary,Other,Yes,Unknown/Cannot Determine
+Chicago-Read Mental Health Center,Clinic,Maybe/Unknown,Unknown/Cannot Determine
+Gardiner General Hospital,Lab,Yes,Unknown/Cannot Determine
+Swedish Hospital,Other,No,Cloth
+Provident Hospital,Clinic,Yes,Unknown/Cannot Determine
+Illinois Eye and Ear Infirmary,Other,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Prentice Women's Hospital,Optometrist,No,Proceedure/Surgical
+Rush University Medical Center,Clinic,No,Not Applicable - no masks
+Ryan AbilityLab,Hospital,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+University of Illinois Hospital,Dentist,No,Cloth
+Northwestern Memorial Hospital,Speciality Treatment Center,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+University of Illinois Hospital & Health Sciences System,Hospital,No,Proceedure/Surgical
+Ryan AbilityLab,Dentist,No,Unknown/Cannot Determine
+Humboldt Park Health,Speciality Treatment Center,Yes,Unknown/Cannot Determine
+Gardiner General Hospital,Other,Maybe/Unknown,Proceedure/Surgical
+Advocate Illinois Masonic Medical Center,Clinic,Yes,Not Applicable - no masks
+Gardiner General Hospital,Hospital,Maybe/Unknown,Unknown/Cannot Determine
+Holy Cross Hospital,Optometrist,Yes,Respirators - N95s or better
+Chicago Lakeshore Hospital,Hospital,Yes,Not Applicable - no masks
+Holy Cross Hospital,Clinic,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Northwestern Memorial Hospital,Hospital,Maybe/Unknown,Cloth
+Chicago Lakeshore Hospital,Lab,Maybe/Unknown,Respirators - N95s or better
+Swedish Hospital,Clinic,Yes,Not Applicable - no masks
+Illinois Eye and Ear Infirmary,Dentist,Maybe/Unknown,Respirators - N95s or better
+Chicago-Read Mental Health Center,Other,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Lurie Children's Hospital,Optometrist,Yes,Proceedure/Surgical
+John H. Stroger Jr. Hospital of Cook County,Clinic,Maybe/Unknown,Not Applicable - no masks
+La Rabida Children's Hospital,Lab,Yes,Proceedure/Surgical
+University of Illinois Hospital & Health Sciences System,Dentist,No,Unknown/Cannot Determine
+John H. Stroger Jr. Hospital of Cook County,Speciality Treatment Center,No,Not Applicable - no masks
+John H. Stroger Jr. Hospital of Cook County,Other,Yes,Respirators - N95s or better
+Methodist Hospital of Chicago,Other,Yes,Proceedure/Surgical
+Lurie Children's Hospital,Lab,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Chicago-Read Mental Health Center,Other,No,Respirators - N95s or better
+University of Illinois Hospital,Speciality Treatment Center,Maybe/Unknown,Proceedure/Surgical
+Louis A. Weiss Memorial Hospital,Dentist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Methodist Hospital of Chicago,Lab,No,Proceedure/Surgical
+Rush University Medical Center,Optometrist,Yes,Respirators - N95s or better
+Gardiner General Hospital,Speciality Treatment Center,Maybe/Unknown,Cloth
+Mount Sinai Medical Center,Hospital,No,Proceedure/Surgical
+Advocate Illinois Masonic Medical Center,Optometrist,No,Proceedure/Surgical
+Ryan AbilityLab,Lab,Yes,Respirators - N95s or better
+University of Illinois Hospital & Health Sciences System,Lab,Yes,Proceedure/Surgical
+Chicago Lakeshore Hospital,Lab,No,Unknown/Cannot Determine
+Comer Children's Hospital,Hospital,Maybe/Unknown,Respirators - N95s or better
+University of Illinois Hospital,Optometrist,Maybe/Unknown,Cloth
+Mount Sinai Medical Center,Dentist,No,Cloth
+Illinois Eye and Ear Infirmary,Speciality Treatment Center,Maybe/Unknown,Cloth
+Robert H. Lurie Comprehensive Cancer Center,Clinic,Maybe/Unknown,Not Applicable - no masks
+University of Illinois Hospital & Health Sciences System,Speciality Treatment Center,No,Unknown/Cannot Determine
+Lurie Children's Hospital,Other,No,Proceedure/Surgical
+Mount Sinai Medical Center,Optometrist,No,Respirators - N95s or better
+Holy Cross Hospital,Optometrist,No,Not Applicable - no masks
+Mercy Hospital and Medical Center,Optometrist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Illinois Eye and Ear Infirmary,Lab,Maybe/Unknown,Proceedure/Surgical
+Mercy Hospital and Medical Center,Hospital,Yes,Not Applicable - no masks
+Louis A. Weiss Memorial Hospital,Other,No,Respirators - N95s or better
+Prentice Women's Hospital,Lab,No,Respirators - N95s or better
+Prentice Women's Hospital,Other,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Holy Cross Hospital,Dentist,No,Not Applicable - no masks
+John H. Stroger Jr. Hospital of Cook County,Optometrist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Advocate Illinois Masonic Medical Center,Lab,Yes,Cloth
+Comer Children's Hospital,Hospital,No,Proceedure/Surgical
+Holy Cross Hospital,Speciality Treatment Center,No,Cloth
+Advocate Illinois Masonic Medical Center,Other,Yes,Cloth
+Chicago Lakeshore Hospital,Clinic,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Northwestern Memorial Hospital,Hospital,Maybe/Unknown,Cloth
+Mercy Hospital and Medical Center,Hospital,Maybe/Unknown,Cloth
+Rush University Medical Center,Dentist,Yes,Cloth
+John H. Stroger Jr. Hospital of Cook County,Clinic,Maybe/Unknown,Not Applicable - no masks
+Robert H. Lurie Comprehensive Cancer Center,Other,Yes,Proceedure/Surgical
+Gardiner General Hospital,Dentist,Maybe/Unknown,Unknown/Cannot Determine
+University of Illinois Hospital,Dentist,No,Respirators - N95s or better
+University of Chicago Medical Center,Speciality Treatment Center,No,Proceedure/Surgical
+Comer Children's Hospital,Lab,Yes,Cloth
+Lurie Children's Hospital,Dentist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+University of Illinois Hospital & Health Sciences System,Other,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Robert H. Lurie Comprehensive Cancer Center,Dentist,No,Proceedure/Surgical
+Mount Sinai Medical Center,Clinic,No,Respirators - N95s or better
+Ruth M. Rothstein CORE Center,Clinic,No,Unknown/Cannot Determine
+Rush University Medical Center,Optometrist,Yes,Respirators - N95s or better
+Mount Sinai Medical Center,Lab,Maybe/Unknown,Respirators - N95s or better
+Ryan AbilityLab,Optometrist,Yes,Proceedure/Surgical
+Louis A. Weiss Memorial Hospital,Other,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Lurie Children's Hospital,Other,Yes,Unknown/Cannot Determine
+University of Illinois Hospital & Health Sciences System,Speciality Treatment Center,Maybe/Unknown,Respirators - N95s or better
+Louis A. Weiss Memorial Hospital,Hospital,Maybe/Unknown,Not Applicable - no masks
+Methodist Hospital of Chicago,Lab,Maybe/Unknown,Respirators - N95s or better
+Holy Cross Hospital,Lab,Maybe/Unknown,Respirators - N95s or better
+Prentice Women's Hospital,Speciality Treatment Center,No,Unknown/Cannot Determine
+Ryan AbilityLab,Other,No,Not Applicable - no masks
+Robert H. Lurie Comprehensive Cancer Center,Clinic,Maybe/Unknown,Not Applicable - no masks
+John H. Stroger Jr. Hospital of Cook County,Speciality Treatment Center,Maybe/Unknown,Proceedure/Surgical
+University of Illinois Hospital,Speciality Treatment Center,Maybe/Unknown,Cloth
+University of Chicago Medical Center,Speciality Treatment Center,No,Not Applicable - no masks
+Rush University Medical Center,Other,No,Cloth
+Provident Hospital,Speciality Treatment Center,No,Cloth
+Advocate Illinois Masonic Medical Center,Hospital,No,Cloth
+Advocate Illinois Masonic Medical Center,Optometrist,No,Proceedure/Surgical
+Northwestern Memorial Hospital,Other,Maybe/Unknown,Cloth
+Gardiner General Hospital,Lab,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Mercy Hospital and Medical Center,Clinic,No,Cloth
+Northwestern Memorial Hospital,Dentist,Yes,Respirators - N95s or better
+Northwestern Memorial Hospital,Dentist,Maybe/Unknown,Not Applicable - no masks
+Prentice Women's Hospital,Clinic,Yes,Proceedure/Surgical
+Holy Cross Hospital,Clinic,No,Proceedure/Surgical
+Chicago-Read Mental Health Center,Optometrist,Yes,Cloth
+Swedish Hospital,Other,Yes,Not Applicable - no masks
+University of Illinois Hospital,Other,Maybe/Unknown,Proceedure/Surgical
+Robert H. Lurie Comprehensive Cancer Center,Optometrist,Maybe/Unknown,Proceedure/Surgical
+Lurie Children's Hospital,Clinic,No,Respirators - N95s or better
+John H. Stroger Jr. Hospital of Cook County,Optometrist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Comer Children's Hospital,Dentist,Yes,Cloth
+John H. Stroger Jr. Hospital of Cook County,Speciality Treatment Center,No,Unknown/Cannot Determine
+Rush University Medical Center,Speciality Treatment Center,Maybe/Unknown,Not Applicable - no masks
+Illinois Eye and Ear Infirmary,Other,Maybe/Unknown,Proceedure/Surgical
+Swedish Hospital,Dentist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Holy Cross Hospital,Clinic,Maybe/Unknown,Proceedure/Surgical
+Lurie Children's Hospital,Hospital,No,Unknown/Cannot Determine
+University of Chicago Medical Center,Speciality Treatment Center,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+University of Chicago Medical Center,Optometrist,No,Not Applicable - no masks
+Chicago-Read Mental Health Center,Hospital,Maybe/Unknown,Unknown/Cannot Determine
+Gardiner General Hospital,Lab,Yes,Cloth
+Comer Children's Hospital,Speciality Treatment Center,Yes,Unknown/Cannot Determine
+Advocate Illinois Masonic Medical Center,Hospital,No,Not Applicable - no masks
+Advocate Illinois Masonic Medical Center,Hospital,No,Cloth
+University of Illinois Hospital & Health Sciences System,Hospital,Yes,Respirators - N95s or better
+University of Chicago Medical Center,Optometrist,Yes,Not Applicable - no masks
+Gardiner General Hospital,Other,Maybe/Unknown,Proceedure/Surgical
+Ruth M. Rothstein CORE Center,Speciality Treatment Center,Yes,Proceedure/Surgical
+Rush University Medical Center,Optometrist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Gardiner General Hospital,Hospital,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Prentice Women's Hospital,Other,Yes,Unknown/Cannot Determine
+John H. Stroger Jr. Hospital of Cook County,Lab,Maybe/Unknown,Unknown/Cannot Determine
+Comer Children's Hospital,Speciality Treatment Center,No,Cloth
+Holy Cross Hospital,Hospital,Maybe/Unknown,Unknown/Cannot Determine
+Northwestern Memorial Hospital,Lab,Maybe/Unknown,Unknown/Cannot Determine
+Rush University Medical Center,Clinic,No,Not Applicable - no masks
+Chicago-Read Mental Health Center,Speciality Treatment Center,Maybe/Unknown,Proceedure/Surgical
+Mercy Hospital and Medical Center,Other,Yes,Proceedure/Surgical
+Lurie Children's Hospital,Dentist,No,Unknown/Cannot Determine
+University of Chicago Medical Center,Other,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Advocate Illinois Masonic Medical Center,Other,No,Cloth
+Provident Hospital,Other,Yes,Not Applicable - no masks
+Illinois Eye and Ear Infirmary,Speciality Treatment Center,Maybe/Unknown,Unknown/Cannot Determine
+Lurie Children's Hospital,Hospital,Yes,Proceedure/Surgical
+University of Illinois Hospital,Dentist,No,Not Applicable - no masks
+Mount Sinai Medical Center,Other,Maybe/Unknown,Not Applicable - no masks
+John H. Stroger Jr. Hospital of Cook County,Dentist,Maybe/Unknown,Proceedure/Surgical
+Ryan AbilityLab,Optometrist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Rush University Medical Center,Speciality Treatment Center,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Prentice Women's Hospital,Other,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Lurie Children's Hospital,Hospital,Yes,Proceedure/Surgical
+Comer Children's Hospital,Speciality Treatment Center,Yes,Respirators - N95s or better
+Methodist Hospital of Chicago,Speciality Treatment Center,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Swedish Hospital,Clinic,Yes,Not Applicable - no masks
+Robert H. Lurie Comprehensive Cancer Center,Clinic,Yes,Respirators - N95s or better
+Mount Sinai Medical Center,Hospital,Maybe/Unknown,Unknown/Cannot Determine
+Northwestern Memorial Hospital,Clinic,Yes,Respirators - N95s or better
+Mount Sinai Medical Center,Other,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Provident Hospital,Optometrist,No,Unknown/Cannot Determine
+Ruth M. Rothstein CORE Center,Speciality Treatment Center,No,Respirators - N95s or better
+La Rabida Children's Hospital,Dentist,No,Unknown/Cannot Determine
+Rush University Medical Center,Clinic,Yes,Cloth
+Illinois Eye and Ear Infirmary,Clinic,No,Respirators - N95s or better
+Gardiner General Hospital,Lab,Yes,Cloth
+University of Illinois Hospital & Health Sciences System,Other,No,Proceedure/Surgical
+John H. Stroger Jr. Hospital of Cook County,Hospital,No,Not Applicable - no masks
+Holy Cross Hospital,Hospital,Yes,Cloth
+Advocate Illinois Masonic Medical Center,Hospital,Maybe/Unknown,Respirators - N95s or better
+Rush University Medical Center,Other,No,Unknown/Cannot Determine
+University of Illinois Hospital,Other,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Ruth M. Rothstein CORE Center,Dentist,No,Not Applicable - no masks
+Rush University Medical Center,Hospital,Maybe/Unknown,Unknown/Cannot Determine
+Gardiner General Hospital,Optometrist,Maybe/Unknown,Unknown/Cannot Determine
+Ruth M. Rothstein CORE Center,Lab,Maybe/Unknown,Respirators - N95s or better
+Gardiner General Hospital,Other,No,Not Applicable - no masks
+Illinois Eye and Ear Infirmary,Optometrist,Yes,Cloth
+Ryan AbilityLab,Dentist,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Holy Cross Hospital,Hospital,No,Respirators - N95s or better
+Lurie Children's Hospital,Lab,No,Respirators - N95s or better
+Humboldt Park Health,Hospital,Maybe/Unknown,Respirators - N95s or better
+Mercy Hospital and Medical Center,Lab,No,Not Applicable - no masks
+Humboldt Park Health,Clinic,Maybe/Unknown,Cloth
+John H. Stroger Jr. Hospital of Cook County,Lab,No,Not Applicable - no masks
+Holy Cross Hospital,Other,Maybe/Unknown,Proceedure/Surgical
+Ruth M. Rothstein CORE Center,Other,Yes,Not Applicable - no masks
+Ryan AbilityLab,Clinic,No,Unknown/Cannot Determine
+John H. Stroger Jr. Hospital of Cook County,Speciality Treatment Center,No,Proceedure/Surgical
+Ruth M. Rothstein CORE Center,Other,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Advocate Illinois Masonic Medical Center,Dentist,Maybe/Unknown,Proceedure/Surgical
+Ruth M. Rothstein CORE Center,Speciality Treatment Center,Maybe/Unknown,Cloth
+Rush University Medical Center,Other,Yes,Unknown/Cannot Determine
+Lurie Children's Hospital,Lab,Maybe/Unknown,Cloth
+Lurie Children's Hospital,Dentist,Yes,Not Applicable - no masks
+Rush University Medical Center,Hospital,Yes,Not Applicable - no masks
+Gardiner General Hospital,Speciality Treatment Center,Maybe/Unknown,Not Applicable - no masks
+Chicago-Read Mental Health Center,Speciality Treatment Center,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Methodist Hospital of Chicago,Speciality Treatment Center,Yes,Cloth
+Humboldt Park Health,Lab,No,Unknown/Cannot Determine
+Mount Sinai Medical Center,Clinic,No,Respirators - N95s or better
+Prentice Women's Hospital,Lab,Maybe/Unknown,Cloth
+Mercy Hospital and Medical Center,Optometrist,Maybe/Unknown,Cloth
+Rush University Medical Center,Other,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Chicago-Read Mental Health Center,Speciality Treatment Center,Yes,Respirators - N95s or better
+Illinois Eye and Ear Infirmary,Lab,No,Respirators - N95s or better
+University of Chicago Medical Center,Hospital,No,Cloth
+Chicago Lakeshore Hospital,Optometrist,Yes,Respirators - N95s or better
+Louis A. Weiss Memorial Hospital,Dentist,Maybe/Unknown,Proceedure/Surgical
+Ryan AbilityLab,Speciality Treatment Center,No,Unknown/Cannot Determine
+Ryan AbilityLab,Hospital,Maybe/Unknown,Proceedure/Surgical
+University of Chicago Medical Center,Dentist,Maybe/Unknown,Respirators - N95s or better
+Robert H. Lurie Comprehensive Cancer Center,Speciality Treatment Center,Yes,Proceedure/Surgical
+Mount Sinai Medical Center,Speciality Treatment Center,No,Unknown/Cannot Determine
+Illinois Eye and Ear Infirmary,Lab,Maybe/Unknown,Unknown/Cannot Determine
+Northwestern Memorial Hospital,Speciality Treatment Center,Maybe/Unknown,Not Applicable - no masks
+University of Chicago Medical Center,Lab,No,Unknown/Cannot Determine
+Mount Sinai Medical Center,Dentist,Yes,Unknown/Cannot Determine
+Rush University Medical Center,Optometrist,No,Proceedure/Surgical
+University of Illinois Hospital & Health Sciences System,Dentist,Maybe/Unknown,Proceedure/Surgical
+Advocate Illinois Masonic Medical Center,Lab,No,Respirators - N95s or better
+University of Illinois Hospital,Lab,Maybe/Unknown,Unknown/Cannot Determine
+Gardiner General Hospital,Clinic,Yes,Proceedure/Surgical
+Swedish Hospital,Hospital,Yes,Not Applicable - no masks
+Gardiner General Hospital,Hospital,Maybe/Unknown,Cloth
+Provident Hospital,Hospital,No,Not Applicable - no masks
+Chicago Lakeshore Hospital,Dentist,No,Not Applicable - no masks
+Humboldt Park Health,Hospital,Yes,Proceedure/Surgical
+Prentice Women's Hospital,Lab,Yes,Proceedure/Surgical
+Chicago-Read Mental Health Center,Speciality Treatment Center,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Ruth M. Rothstein CORE Center,Lab,Yes,Not Applicable - no masks
+Louis A. Weiss Memorial Hospital,Optometrist,Yes,Not Applicable - no masks
+Illinois Eye and Ear Infirmary,Dentist,Maybe/Unknown,Respirators - N95s or better
+University of Illinois Hospital & Health Sciences System,Dentist,Maybe/Unknown,Respirators - N95s or better
+University of Illinois Hospital,Lab,Yes,Proceedure/Surgical
+Methodist Hospital of Chicago,Dentist,Maybe/Unknown,Respirators - N95s or better
+Louis A. Weiss Memorial Hospital,Optometrist,Yes,Not Applicable - no masks
+Prentice Women's Hospital,Other,Yes,Unknown/Cannot Determine
+Robert H. Lurie Comprehensive Cancer Center,Lab,Yes,Cloth
+Swedish Hospital,Dentist,Yes,Proceedure/Surgical
+Holy Cross Hospital,Other,Yes,Unknown/Cannot Determine
+Humboldt Park Health,Lab,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Rush University Medical Center,Optometrist,Yes,Proceedure/Surgical
+Gardiner General Hospital,Speciality Treatment Center,Yes,Cloth
+Mercy Hospital and Medical Center,Clinic,No,Proceedure/Surgical
+Mercy Hospital and Medical Center,Speciality Treatment Center,Maybe/Unknown,Cloth
+John H. Stroger Jr. Hospital of Cook County,Hospital,Maybe/Unknown,Not Applicable - no masks
+University of Illinois Hospital,Optometrist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Methodist Hospital of Chicago,Other,Maybe/Unknown,Respirators - N95s or better
+Lurie Children's Hospital,Hospital,Yes,Not Applicable - no masks
+Chicago-Read Mental Health Center,Clinic,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Ryan AbilityLab,Hospital,No,Unknown/Cannot Determine
+Swedish Hospital,Other,No,Not Applicable - no masks
+Holy Cross Hospital,Dentist,Yes,Proceedure/Surgical
+Swedish Hospital,Optometrist,No,Cloth
+Northwestern Memorial Hospital,Other,Maybe/Unknown,Unknown/Cannot Determine
+Louis A. Weiss Memorial Hospital,Hospital,Maybe/Unknown,Respirators - N95s or better
+Swedish Hospital,Clinic,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+University of Illinois Hospital & Health Sciences System,Clinic,Maybe/Unknown,Respirators - N95s or better
+Gardiner General Hospital,Optometrist,No,Cloth
+Prentice Women's Hospital,Other,Yes,Unknown/Cannot Determine
+Prentice Women's Hospital,Clinic,No,Not Applicable - no masks
+Gardiner General Hospital,Hospital,No,Not Applicable - no masks
+Gardiner General Hospital,Other,Yes,Not Applicable - no masks
+Rush University Medical Center,Dentist,Yes,Not Applicable - no masks
+University of Illinois Hospital,Clinic,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Prentice Women's Hospital,Clinic,Maybe/Unknown,Unknown/Cannot Determine
+La Rabida Children's Hospital,Speciality Treatment Center,No,Unknown/Cannot Determine
+Mercy Hospital and Medical Center,Optometrist,Yes,Cloth
+Illinois Eye and Ear Infirmary,Other,Yes,Respirators - N95s or better
+Methodist Hospital of Chicago,Other,Yes,Unknown/Cannot Determine
+Rush University Medical Center,Optometrist,Yes,Unknown/Cannot Determine
+Mount Sinai Medical Center,Clinic,Maybe/Unknown,Not Applicable - no masks
+Ryan AbilityLab,Hospital,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Swedish Hospital,Optometrist,Maybe/Unknown,Unknown/Cannot Determine
+Lurie Children's Hospital,Clinic,Yes,Unknown/Cannot Determine
+Comer Children's Hospital,Clinic,Maybe/Unknown,Not Applicable - no masks
+Prentice Women's Hospital,Other,Maybe/Unknown,Respirators - N95s or better
+Northwestern Memorial Hospital,Hospital,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Humboldt Park Health,Clinic,No,Unknown/Cannot Determine
+Prentice Women's Hospital,Optometrist,Yes,Cloth
+Mercy Hospital and Medical Center,Dentist,No,Not Applicable - no masks
+Mount Sinai Medical Center,Dentist,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Lurie Children's Hospital,Clinic,No,Proceedure/Surgical
+Illinois Eye and Ear Infirmary,Dentist,No,Unknown/Cannot Determine
+Chicago-Read Mental Health Center,Speciality Treatment Center,Yes,Unknown/Cannot Determine
+Advocate Illinois Masonic Medical Center,Optometrist,No,Respirators - N95s or better
+Chicago Lakeshore Hospital,Optometrist,No,Proceedure/Surgical
+Louis A. Weiss Memorial Hospital,Optometrist,Yes,Cloth
+Mercy Hospital and Medical Center,Dentist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Chicago-Read Mental Health Center,Speciality Treatment Center,Maybe/Unknown,Cloth
+University of Illinois Hospital,Dentist,No,Not Applicable - no masks
+Gardiner General Hospital,Dentist,No,Proceedure/Surgical
+Mercy Hospital and Medical Center,Dentist,No,Not Applicable - no masks
+Mercy Hospital and Medical Center,Lab,Maybe/Unknown,Not Applicable - no masks
+Ruth M. Rothstein CORE Center,Dentist,Maybe/Unknown,Unknown/Cannot Determine
+Louis A. Weiss Memorial Hospital,Other,Yes,Not Applicable - no masks
+University of Illinois Hospital,Lab,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Advocate Illinois Masonic Medical Center,Clinic,Yes,Respirators - N95s or better
+Robert H. Lurie Comprehensive Cancer Center,Lab,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Illinois Eye and Ear Infirmary,Optometrist,No,Cloth
 John H. Stroger Jr. Hospital of Cook County,Other,No,Unknown/Cannot Determine
+La Rabida Children's Hospital,Other,Yes,Proceedure/Surgical
+Advocate Illinois Masonic Medical Center,Hospital,Maybe/Unknown,Respirators - N95s or better
+Provident Hospital,Dentist,Maybe/Unknown,Unknown/Cannot Determine
+University of Chicago Medical Center,Other,No,Cloth
+John H. Stroger Jr. Hospital of Cook County,Clinic,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+La Rabida Children's Hospital,Optometrist,No,Proceedure/Surgical
+Louis A. Weiss Memorial Hospital,Dentist,Maybe/Unknown,Respirators - N95s or better
+Comer Children's Hospital,Optometrist,Yes,Unknown/Cannot Determine
+Prentice Women's Hospital,Speciality Treatment Center,Maybe/Unknown,Proceedure/Surgical
+Gardiner General Hospital,Dentist,Yes,Unknown/Cannot Determine
+Chicago Lakeshore Hospital,Other,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Prentice Women's Hospital,Optometrist,Maybe/Unknown,Not Applicable - no masks
+Chicago-Read Mental Health Center,Speciality Treatment Center,No,Cloth
+Ryan AbilityLab,Clinic,Yes,Proceedure/Surgical
+Swedish Hospital,Other,Yes,Proceedure/Surgical
+Illinois Eye and Ear Infirmary,Clinic,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Louis A. Weiss Memorial Hospital,Optometrist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Chicago Lakeshore Hospital,Optometrist,Yes,Cloth
+Prentice Women's Hospital,Speciality Treatment Center,Maybe/Unknown,Cloth
+Robert H. Lurie Comprehensive Cancer Center,Dentist,Yes,Unknown/Cannot Determine
+Advocate Illinois Masonic Medical Center,Optometrist,Yes,Not Applicable - no masks
+Lurie Children's Hospital,Lab,No,Not Applicable - no masks
+Advocate Illinois Masonic Medical Center,Dentist,Maybe/Unknown,Not Applicable - no masks
+Holy Cross Hospital,Optometrist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Gardiner General Hospital,Speciality Treatment Center,Yes,Not Applicable - no masks
+Robert H. Lurie Comprehensive Cancer Center,Dentist,No,Not Applicable - no masks
+Chicago Lakeshore Hospital,Dentist,Maybe/Unknown,Cloth
+Swedish Hospital,Speciality Treatment Center,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Lurie Children's Hospital,Hospital,No,Cloth
+Advocate Illinois Masonic Medical Center,Clinic,Maybe/Unknown,Unknown/Cannot Determine
+Northwestern Memorial Hospital,Other,No,Unknown/Cannot Determine
+Mercy Hospital and Medical Center,Clinic,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Methodist Hospital of Chicago,Lab,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Gardiner General Hospital,Hospital,No,Proceedure/Surgical
+Gardiner General Hospital,Clinic,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Provident Hospital,Dentist,Maybe/Unknown,Proceedure/Surgical
+Swedish Hospital,Other,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+La Rabida Children's Hospital,Other,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Ryan AbilityLab,Optometrist,Yes,Proceedure/Surgical
+Holy Cross Hospital,Hospital,Yes,Unknown/Cannot Determine
+La Rabida Children's Hospital,Dentist,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Lurie Children's Hospital,Lab,Yes,Unknown/Cannot Determine
+Comer Children's Hospital,Clinic,No,Not Applicable - no masks
+Holy Cross Hospital,Clinic,No,Proceedure/Surgical
+Methodist Hospital of Chicago,Lab,Yes,Cloth
+Robert H. Lurie Comprehensive Cancer Center,Clinic,Yes,Respirators - N95s or better
+Comer Children's Hospital,Hospital,Yes,Not Applicable - no masks
+La Rabida Children's Hospital,Speciality Treatment Center,No,Cloth
+University of Illinois Hospital & Health Sciences System,Clinic,Yes,Unknown/Cannot Determine
+Chicago Lakeshore Hospital,Dentist,Yes,Unknown/Cannot Determine
+Rush University Medical Center,Lab,No,Proceedure/Surgical
+Mount Sinai Medical Center,Clinic,No,Not Applicable - no masks
+Holy Cross Hospital,Lab,No,Respirators - N95s or better
+Methodist Hospital of Chicago,Speciality Treatment Center,Yes,Respirators - N95s or better
+Chicago Lakeshore Hospital,Clinic,Yes,Respirators - N95s or better
+Prentice Women's Hospital,Dentist,Maybe/Unknown,Unknown/Cannot Determine
+Ryan AbilityLab,Hospital,Yes,Proceedure/Surgical
+Methodist Hospital of Chicago,Lab,Yes,Unknown/Cannot Determine
+Rush University Medical Center,Clinic,Yes,Not Applicable - no masks
+Mount Sinai Medical Center,Optometrist,No,Proceedure/Surgical
+Lurie Children's Hospital,Other,Maybe/Unknown,Proceedure/Surgical
+Rush University Medical Center,Hospital,No,Respirators - N95s or better
+John H. Stroger Jr. Hospital of Cook County,Speciality Treatment Center,Yes,Unknown/Cannot Determine
+Holy Cross Hospital,Lab,Yes,Unknown/Cannot Determine
+La Rabida Children's Hospital,Lab,Yes,Respirators - N95s or better
+John H. Stroger Jr. Hospital of Cook County,Speciality Treatment Center,Yes,Unknown/Cannot Determine
+Prentice Women's Hospital,Other,Yes,Unknown/Cannot Determine
+Mount Sinai Medical Center,Lab,No,Respirators - N95s or better
+Lurie Children's Hospital,Lab,Maybe/Unknown,Respirators - N95s or better
+Ryan AbilityLab,Clinic,Maybe/Unknown,Proceedure/Surgical
+Comer Children's Hospital,Speciality Treatment Center,No,Respirators - N95s or better
+Robert H. Lurie Comprehensive Cancer Center,Clinic,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Prentice Women's Hospital,Clinic,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+University of Illinois Hospital,Optometrist,Yes,Respirators - N95s or better
+Robert H. Lurie Comprehensive Cancer Center,Speciality Treatment Center,No,Not Applicable - no masks
+Gardiner General Hospital,Clinic,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Robert H. Lurie Comprehensive Cancer Center,Dentist,No,Respirators - N95s or better
+Robert H. Lurie Comprehensive Cancer Center,Speciality Treatment Center,Yes,Cloth
+Mercy Hospital and Medical Center,Clinic,No,Not Applicable - no masks
+Comer Children's Hospital,Speciality Treatment Center,Yes,Cloth
+Provident Hospital,Hospital,Maybe/Unknown,Cloth
+University of Chicago Medical Center,Other,No,Cloth
+University of Illinois Hospital & Health Sciences System,Dentist,Maybe/Unknown,Not Applicable - no masks
+Humboldt Park Health,Clinic,Yes,Cloth
+Mount Sinai Medical Center,Hospital,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Prentice Women's Hospital,Optometrist,No,Respirators - N95s or better
+Rush University Medical Center,Clinic,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+University of Illinois Hospital & Health Sciences System,Dentist,No,Not Applicable - no masks
+Rush University Medical Center,Lab,Maybe/Unknown,Cloth
+Provident Hospital,Hospital,No,Respirators - N95s or better
+Chicago Lakeshore Hospital,Optometrist,Maybe/Unknown,Cloth
+University of Chicago Medical Center,Other,No,Proceedure/Surgical
+Chicago Lakeshore Hospital,Lab,No,Unknown/Cannot Determine
+University of Illinois Hospital,Other,Maybe/Unknown,Cloth
+John H. Stroger Jr. Hospital of Cook County,Optometrist,Yes,Respirators - N95s or better
+Gardiner General Hospital,Dentist,Yes,Cloth
+Ruth M. Rothstein CORE Center,Lab,Yes,Proceedure/Surgical
+Swedish Hospital,Dentist,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+University of Chicago Medical Center,Hospital,Yes,Proceedure/Surgical
+Illinois Eye and Ear Infirmary,Hospital,Maybe/Unknown,Proceedure/Surgical
+Chicago Lakeshore Hospital,Optometrist,Yes,Unknown/Cannot Determine
+Holy Cross Hospital,Clinic,Maybe/Unknown,Respirators - N95s or better
+Robert H. Lurie Comprehensive Cancer Center,Dentist,No,Cloth
+Northwestern Memorial Hospital,Other,Yes,Proceedure/Surgical
+Humboldt Park Health,Hospital,No,Cloth
+Methodist Hospital of Chicago,Lab,Yes,Cloth
+Prentice Women's Hospital,Other,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Provident Hospital,Hospital,Maybe/Unknown,Proceedure/Surgical
+Ryan AbilityLab,Lab,Yes,Unknown/Cannot Determine
+Prentice Women's Hospital,Speciality Treatment Center,No,Unknown/Cannot Determine
+Louis A. Weiss Memorial Hospital,Other,Yes,Not Applicable - no masks
+Swedish Hospital,Other,No,Unknown/Cannot Determine
+Illinois Eye and Ear Infirmary,Clinic,No,Proceedure/Surgical
+Advocate Illinois Masonic Medical Center,Other,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Rush University Medical Center,Dentist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+La Rabida Children's Hospital,Dentist,Yes,Not Applicable - no masks
+Prentice Women's Hospital,Dentist,Yes,Proceedure/Surgical
+Ruth M. Rothstein CORE Center,Lab,Maybe/Unknown,Proceedure/Surgical
+Advocate Illinois Masonic Medical Center,Optometrist,Yes,Respirators - N95s or better
+University of Illinois Hospital & Health Sciences System,Optometrist,No,Respirators - N95s or better
+Advocate Illinois Masonic Medical Center,Other,Yes,Not Applicable - no masks
+Holy Cross Hospital,Other,Yes,Proceedure/Surgical
+Chicago-Read Mental Health Center,Other,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Chicago-Read Mental Health Center,Lab,Maybe/Unknown,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Humboldt Park Health,Dentist,No,Proceedure/Surgical
+Swedish Hospital,Hospital,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Louis A. Weiss Memorial Hospital,Speciality Treatment Center,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Chicago-Read Mental Health Center,Clinic,Yes,Cloth
+Louis A. Weiss Memorial Hospital,Optometrist,Maybe/Unknown,Respirators - N95s or better
+La Rabida Children's Hospital,Lab,Yes,Proceedure/Surgical
+Humboldt Park Health,Hospital,Maybe/Unknown,Proceedure/Surgical
+Mount Sinai Medical Center,Other,No,Respirators - N95s or better
+Advocate Illinois Masonic Medical Center,Lab,Yes,Proceedure/Surgical
+Louis A. Weiss Memorial Hospital,Lab,Maybe/Unknown,Unknown/Cannot Determine
+University of Illinois Hospital,Speciality Treatment Center,Yes,Respirators - N95s or better
+Provident Hospital,Dentist,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Robert H. Lurie Comprehensive Cancer Center,Hospital,No,Unknown/Cannot Determine
+University of Illinois Hospital,Lab,Yes,Proceedure/Surgical
+John H. Stroger Jr. Hospital of Cook County,Lab,Maybe/Unknown,Cloth
+La Rabida Children's Hospital,Lab,Maybe/Unknown,Unknown/Cannot Determine
+University of Chicago Medical Center,Speciality Treatment Center,No,Cloth
+Illinois Eye and Ear Infirmary,Other,No,Respirators - N95s or better
+Rush University Medical Center,Optometrist,Maybe/Unknown,Not Applicable - no masks
+Robert H. Lurie Comprehensive Cancer Center,Speciality Treatment Center,Yes,Unknown/Cannot Determine
+Methodist Hospital of Chicago,Clinic,No,Respirators - N95s or better
+Robert H. Lurie Comprehensive Cancer Center,Optometrist,No,Respirators - N95s or better
+Louis A. Weiss Memorial Hospital,Optometrist,Yes,Proceedure/Surgical
+Ryan AbilityLab,Hospital,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Advocate Illinois Masonic Medical Center,Optometrist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Northwestern Memorial Hospital,Other,Yes,Proceedure/Surgical
+Chicago Lakeshore Hospital,Optometrist,Maybe/Unknown,Unknown/Cannot Determine
+University of Chicago Medical Center,Optometrist,Yes,Respirators - N95s or better
+Louis A. Weiss Memorial Hospital,Optometrist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Chicago-Read Mental Health Center,Optometrist,Maybe/Unknown,Respirators - N95s or better
+Humboldt Park Health,Dentist,Yes,Respirators - N95s or better
+University of Illinois Hospital,Optometrist,Yes,Proceedure/Surgical
+Methodist Hospital of Chicago,Dentist,No,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+University of Illinois Hospital & Health Sciences System,Other,Yes,KN95s - better than surgical/proceedure but don't appear to be N95 quality
+Northwestern Memorial Hospital,Optometrist,Yes,Unknown/Cannot Determine
+Comer Children's Hospital,Lab,Maybe/Unknown,Respirators - N95s or better
+Northwestern Memorial Hospital,Dentist,Yes,Unknown/Cannot Determine
+John H. Stroger Jr. Hospital of Cook County,Hospital,Maybe/Unknown,Not Applicable - no masks
+Lurie Children's Hospital,Optometrist,Yes,Proceedure/Surgical
+Methodist Hospital of Chicago,Optometrist,Maybe/Unknown,Unknown/Cannot Determine
+Holy Cross Hospital,Dentist,Yes,Cloth
