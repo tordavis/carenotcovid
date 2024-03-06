@@ -18,85 +18,89 @@ import random
 # set up page name
 st.set_page_config(page_title="WIP: Chicagoland Healthcare Facility Covid Safety Database", page_icon="😷")
 # set up title on the web application
-st.title("Chicagoland Healthcare Facility Covid Safety Database")
+st.title("WIP: Chicagoland Healthcare Facility Covid Safety Database")
 st.header("Crowdsourced Database for Covid Precautions at Healthcare Facilities Around Chicagoland")
 
 ##############################################################################
 
-#### Reference Lists ####
+# #### Reference Lists ####
 
-# get hospital list
-hospitals = [
-    "Advocate Illinois Masonic Medical Center",
-    "Chicago Lakeshore Hospital",
-    "Chicago-Read Mental Health Center",
-    "Comer Children's Hospital",
-    "Gardiner General Hospital",
-    "Holy Cross Hospital",
-    "Humboldt Park Health",
-    "Illinois Eye and Ear Infirmary",
-    "John H. Stroger Jr. Hospital of Cook County",
-    "La Rabida Children's Hospital",
-    "Louis A. Weiss Memorial Hospital",
-    "Lurie Children's Hospital",
-    "Mercy Hospital and Medical Center",
-    "Methodist Hospital of Chicago",
-    "Mount Sinai Medical Center",
-    "Northwestern Memorial Hospital",
-    "Prentice Women's Hospital",
-    "Provident Hospital",
-    "Robert H. Lurie Comprehensive Cancer Center",
-    "Rush University Medical Center",
-    "Ruth M. Rothstein CORE Center",
-    "Ryan AbilityLab",
-    "Swedish Hospital",
-    "University of Chicago Medical Center",
-    "University of Illinois Hospital",
-    "University of Illinois Hospital & Health Sciences System"
-]
+# # get hospital list
+# hospitals = [
+#     "Advocate Illinois Masonic Medical Center",
+#     "Chicago Lakeshore Hospital",
+#     "Chicago-Read Mental Health Center",
+#     "Comer Children's Hospital",
+#     "Gardiner General Hospital",
+#     "Holy Cross Hospital",
+#     "Humboldt Park Health",
+#     "Illinois Eye and Ear Infirmary",
+#     "John H. Stroger Jr. Hospital of Cook County",
+#     "La Rabida Children's Hospital",
+#     "Louis A. Weiss Memorial Hospital",
+#     "Lurie Children's Hospital",
+#     "Mercy Hospital and Medical Center",
+#     "Methodist Hospital of Chicago",
+#     "Mount Sinai Medical Center",
+#     "Northwestern Memorial Hospital",
+#     "Prentice Women's Hospital",
+#     "Provident Hospital",
+#     "Robert H. Lurie Comprehensive Cancer Center",
+#     "Rush University Medical Center",
+#     "Ruth M. Rothstein CORE Center",
+#     "Ryan AbilityLab",
+#     "Swedish Hospital",
+#     "University of Chicago Medical Center",
+#     "University of Illinois Hospital",
+#     "University of Illinois Hospital & Health Sciences System"
+# ]
 
-# get facility type list
-facility_type = [
-    "Hospital",
-    "Clinic",
-    "Dentist",
-    "Optometrist",
-    "Lab",
-    "Speciality Treatment Center",
-    "Other"
-]
+# # get facility type list
+# facility_type = [
+#     "Hospital",
+#     "Clinic",
+#     "Dentist",
+#     "Optometrist",
+#     "Lab",
+#     "Speciality Treatment Center",
+#     "Other"
+# ]
 
-# hepa filters available
-hepa = [
-    "Yes",
-    "No",
-    "Maybe/Unknown"
-]
+# # hepa filters available
+# hepa = [
+#     "Yes",
+#     "No",
+#     "Maybe/Unknown"
+# ]
 
-# masks worn
-masks = [
-    "Respirators - N95s or better",
-    "KN95s - better than surgical/proceedure but don't appear to be N95 quality",
-    "Proceedure/Surgical",
-    "Cloth",
-    "Unknown/Cannot Determine",
-    "Not Applicable - no masks"
-]
+# # masks worn
+# masks = [
+#     "Respirators - N95s or better",
+#     "KN95s - better than surgical/proceedure but don't appear to be N95 quality",
+#     "Proceedure/Surgical",
+#     "Cloth",
+#     "Unknown/Cannot Determine",
+#     "Not Applicable - no masks"
+# ]
 
 ##############################################################################
 
 #### Create Random Table ####
 
-# get random samples from the lists above
-sample_hospitals = random.choices(hospitals, k=100)
-sample_facility_type = random.choices(facility_type, k=100)
-sample_hepa = random.choices(hepa, k=100)
-sample_masks = random.choices(masks, k=100)
+# # get random samples from the lists above
+# sample_hospitals = random.choices(hospitals, k=100)
+# sample_facility_type = random.choices(facility_type, k=100)
+# sample_hepa = random.choices(hepa, k=100)
+# sample_masks = random.choices(masks, k=100)
 
-dict = {'hospital': sample_hospitals, 'facility type': sample_facility_type, 
-        'hepa available': sample_hepa, 'masks worn': sample_masks} 
+# dict = {'hospital': sample_hospitals, 'facility type': sample_facility_type, 
+#         'hepa available': sample_hepa, 'masks worn': sample_masks} 
 
-df = pd.DataFrame(dict)
+# df = pd.DataFrame(dict)
+
+# df.to_csv('random_sample.csv', index=False) 
+
+df = pd.read_csv('random_sample.csv')
 
 ##############################################################################
 
@@ -119,13 +123,25 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
     df = df.copy()
 
+    user_facility = st.selectbox("Please select the facility type you are interested in",df['facility type'].unique())
+    df = df.loc[df['facility type'] == user_facility]
+
     modification_container = st.container()
         
     with modification_container:
-        category =          st.selectbox("Please select the word category",sorted(df.columns))
-        category_filter = st.multiselect("Filter within category", sorted(df[category].unique()))
 
-    df = df.loc[df[category].isin(category_filter)]
+        col1, col2 = st.columns(2)
+        col1.write('Please select a hepa filter preference:')
+        category_filter =   col2.multiselect("Filter within category", sorted(df['hepa available'].unique()))
+        if category_filter != []:
+            df = df.loc[df['hepa available'].isin(category_filter)]
+
+        col3, col4 = st.columns(2)
+        col3.write('Please select a mask preference:')
+        category_filter =   col4.multiselect("Filter within category", sorted(df['masks worn'].unique()))
+        if category_filter != []:
+            df = df.loc[df['masks worn'].isin(category_filter)]
+
     df = df.sort_values('hospital')
 
     return df
