@@ -16,10 +16,11 @@ import random
 ##### Page Set Up #####
 
 # set up page name
-st.set_page_config(page_title="WIP: Chicagoland Healthcare Facility Covid Safety Database", page_icon="😷")
+st.set_page_config(page_title="WORK IN PROGRESS: Chicagoland Healthcare Facility Covid Safety Database", page_icon="😷")
 # set up title on the web application
-st.title("WIP: Chicagoland Healthcare Facility Covid Safety Database")
-st.header("Crowdsourced Database for Covid Precautions at Healthcare Facilities Around Chicagoland")
+st.title("WORK IN PROGRESS: Chicagoland Healthcare Facility Covid Safety Database")
+st.header("Crowdsourced Database for Covid Precautions at Healthcare Facilities Around Chicagoland.")
+st.write("THIS SITE CURRENTLY USES FAKE DATA FOR DEMO PURPOSES")
 
 ##############################################################################
 
