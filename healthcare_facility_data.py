@@ -20,132 +20,85 @@ st.set_page_config(page_title="WORK IN PROGRESS: Chicagoland Healthcare Facility
 # set up title on the web application
 st.title("WORK IN PROGRESS: Chicagoland Healthcare Facility Covid Safety Database")
 st.header("Crowdsourced Database for Covid Precautions at Healthcare Facilities Around Chicagoland.")
-st.write("THIS SITE CURRENTLY USES FAKE DATA FOR DEMO PURPOSES")
+st.write("NOTE: Due to covid denialism this information could be subject to change.")
 
 ##############################################################################
 
-#### Reference Lists ####
+#### Read in Survey Date ####
 
-# # get hospital list
-# hospitals = [
-#     "Advocate Illinois Masonic Medical Center",
-#     "Chicago Lakeshore Hospital",
-#     "Chicago-Read Mental Health Center",
-#     "Comer Children's Hospital",
-#     "Gardiner General Hospital",
-#     "Holy Cross Hospital",
-#     "Humboldt Park Health",
-#     "Illinois Eye and Ear Infirmary",
-#     "John H. Stroger Jr. Hospital of Cook County",
-#     "La Rabida Children's Hospital",
-#     "Louis A. Weiss Memorial Hospital",
-#     "Lurie Children's Hospital",
-#     "Mercy Hospital and Medical Center",
-#     "Methodist Hospital of Chicago",
-#     "Mount Sinai Medical Center",
-#     "Northwestern Memorial Hospital",
-#     "Prentice Women's Hospital",
-#     "Provident Hospital",
-#     "Robert H. Lurie Comprehensive Cancer Center",
-#     "Rush University Medical Center",
-#     "Ruth M. Rothstein CORE Center",
-#     "Ryan AbilityLab",
-#     "Swedish Hospital",
-#     "University of Chicago Medical Center",
-#     "University of Illinois Hospital",
-#     "University of Illinois Hospital & Health Sciences System"
-# ]
-
-# # get facility type list
-# facility_type = [
-#     "Hospital",
-#     "Clinic",
-#     "Dentist",
-#     "Optometrist",
-#     "Lab",
-#     "Speciality Treatment Center",
-#     "Other"
-# ]
-
-# # hepa filters available
-# hepa = [
-#     "Yes",
-#     "No",
-#     "Maybe/Unknown"
-# ]
-
-# # masks worn
-# masks = [
-#     "Respirators - N95s or better",
-#     "KN95s - better than surgical/proceedure but don't appear to be N95 quality",
-#     "Proceedure/Surgical",
-#     "Cloth",
-#     "Unknown/Cannot Determine",
-#     "Not Applicable - no masks"
-# ]
-
-##############################################################################
-
-#### Create Random Table ####
-
-# # get random samples from the lists above
-# sample_hospitals = random.choices(hospitals, k=1000)
-# sample_facility_type = random.choices(facility_type, k=1000)
-# sample_hepa = random.choices(hepa, k=1000)
-# sample_masks = random.choices(masks, k=1000)
-
-# dict = {'hospital': sample_hospitals, 'facility type': sample_facility_type, 
-#         'hepa available': sample_hepa, 'masks worn': sample_masks} 
-
-# df = pd.DataFrame(dict)
-
-# df.to_csv('random_sample.csv', index=False) 
-
-df = pd.read_csv('random_sample.csv')
+df = pd.read_csv('responses/survey_data.csv')
 
 ##############################################################################
 
 #### Set Up Dataframe Filtering Function ####
 
 def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Adds a UI on top of a dataframe to let viewers filter columns
 
-    Args:
-        df (pd.DataFrame): Original dataframe
+    user_facility = st.selectbox("Please select the facility type you are interested in",df['facility_type'].unique())
 
-    Returns:
-        pd.DataFrame: Filtered dataframe
-    """
-    modify = st.checkbox("Add filters")
+    mask_selection = st.selectbox("Please select the mask requirement that was observed at the facility",df['mask_required'].unique())
 
-    if not modify:
-        return df.sort_values('hospital')
+    curated_df = df[(df['facility_type'] == user_facility) & (df['mask_required'] == mask_selection)]
 
-    df = df.copy()
+    facility_df = curated_df[['timestamp',
+                              'facility_name',
+                              'address',
+                              'address_2',
+                              'city',
+                              'zip',
+                              'phone_number',
+                              'email',
+                              'website'
+                              ]]
 
-    user_facility = st.selectbox("Please select the facility type you are interested in",df['facility type'].unique())
-    df = df.loc[df['facility type'] == user_facility]
+    mask_df = curated_df[['timestamp',
+                          'facility_name',
+                          'N95',
+                          'KN95',
+                          'surgical',
+                          'none',
+                          'unknown',
+                          'mask_enforced',
+                          'all_mask',
+                          'all_mask_required',
+                          'all_mask_enforced',
+                          'patients_mask',
+                          'patients_mask_required',
+                          'patients_mask_enforced',
+                          'mask_request'
+                          ]]
+    
+    air_df = curated_df[['facility_name',
+                         'hepa',
+                         'hepa_on',
+                         'co2',
+                         'co2_reading',
+                         'co2_location'
+                         ]]
+    
+    accessibility_df = curated_df[['facility_name',
+                                   'elevator',
+                                   'ada_request']]
 
-    modification_container = st.container()
-        
-    with modification_container:
 
-        col1, col2 = st.columns(2)
-        col1.write('Please select a hepa filter preference:')
-        category_filter =   col2.multiselect("Filter within category", sorted(df['hepa available'].unique()))
-        if category_filter != []:
-            df = df.loc[df['hepa available'].isin(category_filter)]
+    
+    table_selection = st.selectbox("What information are you interested in seeing",['Facility Information',
+                                                                                    'Mask Information',
+                                                                                    'Air Information',
+                                                                                    'Accessibility Information'
+                                                                                    ])
+    
+    if table_selection == 'Facility Information':
+        final_df = facility_df
+    elif table_selection == 'Mask Information':
+        final_df = mask_df
+    elif table_selection == 'Air Information':
+        final_df = air_df
+    elif table_selection == 'Accessibility Information':
+        final_df = accessibility_df
 
-        col3, col4 = st.columns(2)
-        col3.write('Please select a mask preference:')
-        category_filter =   col4.multiselect("Filter within category", sorted(df['masks worn'].unique()))
-        if category_filter != []:
-            df = df.loc[df['masks worn'].isin(category_filter)]
 
-    df = df.sort_values('hospital')
-
-    return df
+    return final_df.sort_values('facility_name')
 
 ##############################################################################
 
