@@ -68,6 +68,10 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
                           'surgical',
                           'none',
                           'unknown',
+                          ]]
+    
+    mask_req_df = curated_df[['timestamp',
+                          'facility_name',
                           'mask_enforced',
                           'all_mask',
                           'all_mask_required',
@@ -78,7 +82,8 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
                           'mask_request'
                           ]]
     
-    air_df = curated_df[['facility_name',
+    air_df = curated_df[['timestamp',
+                         'facility_name',
                          'hepa',
                          'hepa_on',
                          'co2',
@@ -86,29 +91,33 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
                          'co2_location'
                          ]]
     
-    accessibility_df = curated_df[['facility_name',
+    accessibility_df = curated_df[['timestamp',
+                                   'facility_name',
                                    'elevator',
                                    'ada_request']]
 
 
     
     table_selection = st.selectbox("What information are you interested in seeing",['Facility Information',
-                                                                                    'Mask Information',
+                                                                                    'Masks Seen in Facility',
+                                                                                    'Mask Requirements Observed',
                                                                                     'Air Information',
                                                                                     'Accessibility Information'
                                                                                     ])
     
     if table_selection == 'Facility Information':
         final_df = facility_df
-    elif table_selection == 'Mask Information':
+    elif table_selection == 'Masks Seen in Facility':
         final_df = mask_df
+    elif table_selection == 'Mask Requirements Observed':
+        final_df = mask_req_df       
     elif table_selection == 'Air Information':
         final_df = air_df
     elif table_selection == 'Accessibility Information':
         final_df = accessibility_df
 
 
-    return final_df.sort_values('timestamp')
+    return final_df.sort_values('timestamp', ascending=False)
 
 ##############################################################################
 
