@@ -10,7 +10,7 @@ import pandas as pd
 import csv
 import numpy as np
 import random
-import gsheets-connection
+from streamlit_gsheets import GSheetsConnection
 
 ##############################################################################
 
