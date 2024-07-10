@@ -10,8 +10,12 @@ import pandas as pd
 import csv
 import numpy as np
 import random
-from streamlit_gsheets import GSheetsConnection
-import gspread
+# from streamlit_gsheets import GSheetsConnection
+# import gspread
+
+# scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
+
+# client = gspread.authorize(creds)
 
 ##############################################################################
 
@@ -121,12 +125,12 @@ def main():
 if __name__ == "__main__":
     main()
 
-feedback = st.text_input("Please provide any feedback or bugs you find within this tool")
+# feedback = st.text_input("Please provide any feedback or bugs you find within this tool")
 
-# feedback_df = conn.update(
-#                           worksheet="database_feedback",
-#                           data=feedback
-# )
+# # feedback_df = conn.update(
+# #                           worksheet="database_feedback",
+# #                           data=feedback
+# # )
 
-sh = client.open('database_feedback').worksheet('database_feedback')  
-sh.append_row(feedback)
+# sh = client.open('database_feedback').worksheet('database_feedback')  
+# sh.append_row(feedback)
