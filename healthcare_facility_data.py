@@ -36,7 +36,7 @@ df = pd.read_csv('responses/survey_data.csv')
 
 #### Connect to Feedback Spreadsheet ####
 
-conn = st.experimental_connection("gsheets", type=GSheetsConnection)
+# conn = st.experimental_connection("gsheets", type=GSheetsConnection)
 
 ##############################################################################
 
