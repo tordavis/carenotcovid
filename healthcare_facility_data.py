@@ -108,7 +108,7 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
         final_df = accessibility_df
 
 
-    return final_df.sort_values('facility_name')
+    return final_df.sort_values('timestamp')
 
 ##############################################################################
 
