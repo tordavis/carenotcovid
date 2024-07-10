@@ -10,6 +10,7 @@ import pandas as pd
 import csv
 import numpy as np
 import random
+from streamlit_gsheets import GSheetsConnection
 
 ##############################################################################
 
@@ -27,6 +28,10 @@ st.write("NOTE: Due to covid denialism this information could be subject to chan
 #### Read in Survey Date ####
 
 df = pd.read_csv('responses/survey_data.csv')
+
+#### Connect to Feedback Spreadsheet ####
+
+conn = st.connection("gsheets", type=GSheetsConnection)
 
 ##############################################################################
 
@@ -112,27 +117,7 @@ def main():
                     hide_index = 1
                     )
 
-    # # have the user choose an allergen
-    # user_mask_selection = st.selectbox("Please select your mask preference:", masks)
-            
-    # # reduce OpenFoodFacts dataframe to just rows with allergen selected
-    # final_df = df[df['masks worn'].str.contains(user_mask_selection, na=False)]
-    # # if there are no facilities, tell the user
-    # if final_df.empty:
-    #     st.write(
-    #         "Based on the information available in our dataset, we did not find any potential facilities that matched your preference",
-    #         user_mask_selection,
-    #     )
-    # #if there are facilities
-    # else:
-    #     # may not need this anymore?
-    #     final_df = final_df.drop_duplicates()
-    #     # get length of OFF dataset for allergen
-    #     final_df_len = len(final_df)
-    #     st.write("We found", final_df_len, "facilities with", user_mask_selection,".")
-    #     # present a dataframe of brand, product, ingredient, and allergen
-    #     final_df.set_index(final_df.columns[0])
-    #     st.write("### Facilities with Mask Preference Present", final_df.sort_index())
-
 if __name__ == "__main__":
     main()
+
+feedback = st.text_input("Please provide any feedback or bugs you find within this tool")
