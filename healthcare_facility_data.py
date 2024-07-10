@@ -31,7 +31,7 @@ df = pd.read_csv('responses/survey_data.csv')
 
 #### Connect to Feedback Spreadsheet ####
 
-conn = st.connection("gsheets", type=GSheetsConnection)
+conn = st.connection("database_feedback", type=GSheetsConnection)
 
 ##############################################################################
 
@@ -123,6 +123,6 @@ if __name__ == "__main__":
 feedback = st.text_input("Please provide any feedback or bugs you find within this tool")
 
 conn.update(
-            worksheet="database feedback",
+            worksheet="database_feedback",
             data=feedback
 )
