@@ -121,3 +121,8 @@ if __name__ == "__main__":
     main()
 
 feedback = st.text_input("Please provide any feedback or bugs you find within this tool")
+
+conn.update(
+            worksheet="v1",
+            data=feedback
+)
