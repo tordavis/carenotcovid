@@ -1,2 +1,2 @@
 streamlit>=1.28
-import st-gsheets-connection
+st-gsheets-connection
