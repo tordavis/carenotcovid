@@ -3,4 +3,4 @@ pip
 # st-gsheets-connection
 numpy==1.26.4
 pandas
-python
+python<3.5
