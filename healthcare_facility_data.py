@@ -8,7 +8,7 @@
 import streamlit as st
 import pandas as pd
 import csv
-import numpy as np
+# import numpy as np
 import random
 # from streamlit_gsheets import GSheetsConnection
 # import gspread
